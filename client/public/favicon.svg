@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" rx="20" fill="#0E0F12"/>
+  <circle cx="50" cy="50" r="42" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <path d="M30 62 L50 28 L70 62 L58 62 L50 44 L42 62 Z" fill="#D4AF37"/>
+  <text x="50" y="78" font-family="'Playfair Display', serif" font-size="14" font-weight="bold" fill="#D4AF37" text-anchor="middle" letter-spacing="1">SLC</text>
+</svg>

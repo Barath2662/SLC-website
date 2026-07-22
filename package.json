@@ -1,0 +1,22 @@
+{
+  "name": "srii-lakshmi-cab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium Business Website & Lead Generation System for Srii Lakshmi Cab, Coimbatore",
+  "scripts": {
+    "dev": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client",
+    "build:server": "npm run build --prefix server",
+    "type-check": "npm run type-check --prefix client"
+  },
+  "keywords": [
+    "coimbatore-taxi",
+    "srii-lakshmi-cab",
+    "tempo-traveller-rental",
+    "urbania-rental",
+    "outstation-taxi"
+  ],
+  "author": "Srii Lakshmi Cab",
+  "license": "ISC"
+}
