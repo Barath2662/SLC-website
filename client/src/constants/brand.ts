@@ -23,7 +23,9 @@ export const BRAND_DETAILS = {
     state: 'Tamil Nadu',
     pincode: '641005',
     full: '5/12 A, 5th Street East, Nanjappa Nagar, Singanallur, Coimbatore - 641005, Tamil Nadu',
-    googleMapsUrl: 'https://maps.google.com/?q=Srii+Lakshmi+Cab+Singanallur+Coimbatore'
+    latitude: 10.9968832,
+    longitude: 77.0184343,
+    googleMapsUrl: 'https://www.google.com/maps/dir/?api=1&destination=10.9968832,77.0184343'
   },
   
   whatsapp: {

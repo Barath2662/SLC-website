@@ -1,0 +1,10 @@
+# Robots.txt for Srii Lakshmi Cab (https://sriilakshmicab.com)
+User-agent: *
+Allow: /
+
+# Disallow API and temporary internal paths
+Disallow: /api/
+Disallow: /*?*
+
+# Sitemap Location
+Sitemap: https://sriilakshmicab.com/sitemap.xml

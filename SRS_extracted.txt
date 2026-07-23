@@ -1,0 +1,4107 @@
+
+Srii Lakshmi Cab Website
+Software Requirements Specification (SRS)
+Version 1.0
+Phase 1 – Vision, Goals & Requirements
+
+Project Title
+Premium Business Website for Srii Lakshmi Cab
+
+Business Name
+Srii Lakshmi Cab
+
+Established
+2005
+
+Business Type
+Cab & Taxi Services
+Airport Transfers
+Outstation Taxi
+Tour Packages
+Corporate Travel
+Wedding Transportation
+Tempo Traveller Rental
+Force Urbania Rental
+Mini Bus & Bus Rental
+
+Vision Statement
+To become the most trusted, premium, and customer-centric travel service provider in Coimbatore by delivering safe, comfortable, and memorable travel experiences across South India.
+
+Mission Statement
+To provide reliable, professional, and affordable transportation with a well-maintained fleet, experienced drivers, and exceptional customer service, ensuring every journey is safe, punctual, and comfortable.
+
+Website Objective
+The website is not an online booking portal.
+It is a premium digital showroom for Srii Lakshmi Cab that builds trust, showcases the fleet and services, and encourages visitors to contact the business via phone, WhatsApp, or an enquiry form.
+Primary goals:
+Build trust
+Showcase vehicles and services
+Increase direct enquiries
+Improve Google search visibility
+Strengthen brand identity
+Generate high-quality leads
+
+Target Audience
+Primary
+Families planning vacations
+Tourists visiting South India
+Airport travelers
+Business travelers
+Corporate companies
+Wedding organizers
+Secondary
+Schools & Colleges
+Industries
+Event planners
+Pilgrimage groups
+Travel agencies
+Hotels requiring transport partners
+
+Target Locations
+Primary:
+Coimbatore
+Secondary:
+Tiruppur
+Pollachi
+Mettupalayam
+Avinashi
+Erode
+Salem
+Nilgiris
+Entire Tamil Nadu
+Kerala
+Karnataka
+Andhra Pradesh
+South India
+
+Website Personality
+The website should feel:
+Professional
+Premium
+Elegant
+Trustworthy
+Luxury
+Fast
+Modern
+Clean
+Minimal
+Friendly
+Reliable
+
+Brand Colors
+Derived from your logo:
+Primary Gold
+Deep Black
+Pure White
+Soft Cream
+Light Grey
+Accent Gold Gradient
+No bright colors should be used.
+
+Typography
+Headings:Elegant serif font
+Body:Modern sans-serif
+Large spacing
+Excellent readability
+
+Visual Style
+Luxury travel company
+Premium hotel aesthetic
+Minimalistic layouts
+Large photography
+Smooth animations
+Rounded cards
+Subtle shadows
+Glassmorphism only where appropriate
+No flashy gradients
+No unnecessary effects
+
+Website Goals
+The visitor should complete one of these actions within two minutes:
+✓ Call
+✓ WhatsApp
+✓ Submit enquiry
+Everything else supports these goals.
+
+Website Pages
+Main Pages
+Home
+About Us
+Fleet
+Services
+Destinations
+Gallery
+Testimonials
+FAQs
+Request Quote
+Contact
+Privacy Policy
+Terms & Conditions
+404 Page
+
+Fleet Categories
+Hatchback
+Sedan
+SUV
+MUV
+Tempo Traveller
+Force Urbania
+Coach (21 Seater)
+Mini Bus (29 & 35)
+Bus
+Each category receives a dedicated page.
+
+Services
+Airport Pickup
+Airport Drop
+Outstation Taxi
+One Way Taxi
+Round Trip
+Corporate Travel
+Wedding Transportation
+Employee Transportation
+Temple Tours
+Tour Packages
+Industrial Visits
+Family Trips
+Local Sightseeing
+School & College Trips
+
+Destinations
+Every destination should have its own page.
+Examples:
+Ooty
+Coonoor
+Kotagiri
+Munnar
+Kodaikanal
+Valparai
+Palani
+Mysore
+Bangalore
+Chennai
+Rameswaram
+Madurai
+Isha Yoga Centre
+Marudhamalai
+Black Thunder
+Topslip
+Wayanad
+Coorg
+And many more across South India.
+
+Contact Information
+Business Name
+Srii Lakshmi Cab
+Phones
+9443914314
+8012781549
+8148251567
+Email
+cabsriilakshmi@gmail.com
+Office
+5/12 A
+5th Street East
+Nanjappa Nagar
+Singanallur
+Coimbatore – 641005
+Business Hours
+24 × 7
+
+Features NOT Included
+No Login
+No Registration
+No User Dashboard
+No Driver Dashboard
+No Online Payment
+No Fare Calculator
+No Fare Estimate
+No Dynamic Pricing
+No Bill Generation
+No Booking Confirmation System
+The business will personally contact every customer after receiving an enquiry.
+
+Enquiry Process
+Visitor selects:
+Vehicle
+Pickup
+Destination
+Travel Date
+Passenger Count
+Phone Number
+↓
+Form submitted
+↓
+Stored in database
+↓
+Email sent to Gmail
+↓
+Success message
+"Thank you for choosing Srii Lakshmi Cab. Our travel advisor will contact you shortly with the best travel plan."
+
+Performance Goals
+First Contentful Paint under 2 seconds
+Lighthouse Performance above 95
+SEO above 95
+Accessibility above 95
+Best Practices above 95
+
+Technology Stack
+Frontend
+React + Vite + TypeScript
+Tailwind CSS
+Framer Motion
+GSAP
+React Router
+Backend
+Node.js
+Express.js
+Database
+SQLite initially (easy deployment), with the option to migrate to PostgreSQL later if needed.
+Maps
+Leaflet + OpenStreetMap
+Email
+Gmail SMTP + Nodemailer
+Deployment
+Hostinger
+
+
+Information Architecture & Website Blueprint
+Version 1.0
+
+Design Philosophy
+The website should feel like a premium luxury travel company, not a local taxi website.
+When a visitor lands on the homepage, they should immediately understand:
+This company is established.
+The vehicles look premium.
+The company is trustworthy.
+Booking is easy.
+They serve all of South India.
+I should call them instead of continuing to search.
+The website should guide visitors naturally toward contacting you, without overwhelming them.
+
+Primary Navigation
+Home
+
+About
+
+Fleet
+
+Services
+
+Destinations
+
+Gallery
+
+Contact
+
+Request Quote
+
+Sticky navigation.
+Transparent over hero section.
+Changes to black background while scrolling.
+Always visible.
+
+Secondary Navigation (Footer)
+About
+Fleet
+Services
+Popular Destinations
+FAQs
+Privacy Policy
+Terms
+Contact
+Instagram
+Google Maps
+
+Website Flow
+Landing
+
+↓
+
+Trust Building
+
+↓
+
+Fleet
+
+↓
+
+Services
+
+↓
+
+Destination
+
+↓
+
+Contact
+
+↓
+
+Enquiry
+
+↓
+
+Call / WhatsApp
+
+Every page must eventually encourage the visitor to contact you.
+
+Complete Sitemap
+Home
+
+About
+
+Fleet
+    Hatchback
+    Sedan
+    SUV
+    MUV
+    Tempo Traveller
+    Force Urbania
+    Coach
+    Mini Bus
+    Bus
+
+Services
+    Airport Transfers
+    Outstation Taxi
+    Local Taxi
+    Corporate Travel
+    Wedding Transportation
+    Temple Tours
+    Tour Packages
+    Employee Transport
+    School & College Trips
+    Industrial Visits
+
+Destinations
+    Ooty
+    Coonoor
+    Kotagiri
+    Valparai
+    Munnar
+    Kodaikanal
+    Mysore
+    Bangalore
+    Chennai
+    Salem
+    Erode
+    Palani
+    Isha Foundation
+    Marudhamalai
+    Black Thunder
+    Topslip
+    Coorg
+    Wayanad
+
+Gallery
+
+FAQs
+
+Contact
+
+Request Quote
+
+Privacy Policy
+
+Terms
+
+404
+
+
+Homepage Blueprint
+The homepage is your digital showroom. It should not feel like a list of information—it should tell a story.
+
+Section 1 — Premium Hero
+Full-screen (100vh).
+Background:
+Slow autoplay video of your fleet and scenic South Indian roads (placeholder initially; replace with your own later).
+Overlay:
+Black gradient for readability.
+Headline:
+Premium Cab & Travel Services in Coimbatore Since 2005
+Subheadline:
+Safe, Comfortable & Reliable Transportation Across South India.
+Buttons:
+📞 Call Now
+💬 WhatsApp
+🚖 Request a Quote
+Below the buttons:
+⭐ Established 2005
+🚖 Premium Fleet
+🛡️ Professional Drivers
+🕒 Available 24×7
+Animation:
+Headline fades up.
+Buttons slide in.
+Background video zooms slowly.
+
+Section 2 — Trust Bar
+Horizontal icons:
+✔ 20+ Years Experience
+✔ Well Maintained Fleet
+✔ South India Coverage
+✔ Professional Drivers
+✔ 24×7 Service
+
+Section 3 — About Preview
+Left:Company image.
+Right:Brief introduction.
+Button:Learn More
+
+Section 4 — Fleet Showcase
+Grid of premium cards.
+Each card:
+Vehicle image
+Vehicle name
+Passenger capacity
+Suitable for
+Request Quote
+Hover animation.
+
+Section 5 — Services
+Luxury icon cards.
+Airport Transfer
+Corporate Travel
+Wedding
+Tour Packages
+Outstation Taxi
+Temple Tours
+Employee Transport
+Local Sightseeing
+Each links to a dedicated page.
+
+Section 6 — Popular Destinations
+Beautiful cards.
+Ooty
+Kodaikanal
+Munnar
+Valparai
+Mysore
+Isha Foundation
+Black Thunder
+Palani
+Every destination opens a dedicated SEO page.
+
+Section 7 — Why Choose Us
+Timeline design.
+Established Since 2005
+Professional Drivers
+Clean Vehicles
+Customized Travel
+Comfortable Journey
+24×7 Support
+Family Friendly
+Safe Travel
+
+Section 8 — Customer Journey
+Four elegant steps:
+Choose Vehicle
+↓
+Send Enquiry
+↓
+Receive Confirmation
+↓
+Enjoy Your Journey
+
+Section 9 — Testimonials
+Carousel.
+Customer photos.
+Ratings.
+Real Google Reviews later.
+
+Section 10 — Gallery Preview
+Masonry layout.
+Luxury hover animations.
+Button:
+View Gallery
+
+Section 11 — Frequently Asked Questions
+Accordion.
+Top 10 questions.
+
+Section 12 — Final CTA
+Large black section.
+Need a Cab?
+Call Now
+WhatsApp
+Request Quote
+
+About Page
+Sections:
+Hero
+Company Story
+Our Journey Since 2005
+Mission
+Vision
+Core Values
+Why Customers Trust Us
+Statistics
+CTA
+
+Fleet Page
+Hero banner.
+Category filters.
+Luxury grid.
+Every vehicle links to its own page.
+
+Vehicle Page Layout
+Hero image.
+Overview.
+Features.
+Seating capacity.
+Ideal use cases.
+Image gallery.
+Interior photos.
+CTA.
+Related vehicles.
+
+Services Page
+Hero.
+Grid.
+Individual service pages.
+Every service includes:
+Description
+Benefits
+Suitable vehicles
+Popular destinations
+Enquiry button
+
+Destination Page
+Hero image.
+About destination.
+Why travel there.
+Recommended vehicle.
+Nearby attractions.
+Travel tips.
+CTA.
+
+Gallery
+Vehicle Gallery
+Customer Trips
+Tourist Destinations
+Wedding Travel
+Corporate Travel
+
+Contact
+Hero
+Contact Cards
+Map
+Enquiry Form
+WhatsApp
+Instagram
+
+Request Quote
+Simple form.
+No pricing.
+No calculation.
+Just lead generation.
+
+Footer
+Logo
+Quick Links
+Fleet
+Services
+Contact
+Working Hours
+Instagram
+Google Maps
+Copyright
+Privacy
+Terms
+
+Mobile Experience
+This is mobile-first. Over 80% of visitors will likely use phones.
+Requirements:
+Thumb-friendly navigation
+Floating Call button
+Floating WhatsApp button
+Sticky "Request Quote" button
+Optimized images
+Fast loading on 4G
+
+User Experience Rules
+Never more than three clicks to any important information.
+Every page must contain a visible call-to-action.
+Avoid pop-ups on page load.
+Use consistent spacing and typography.
+Keep forms short to encourage enquiries.
+
+Notes for the AI Coding Agent
+The AI should build the website as a reusable component-based application. Every section should be modular, responsive, and easy to extend. The navigation, footer, vehicle cards, service cards, testimonials, FAQs, and CTA blocks should all be reusable components rather than page-specific implementations.
+
+
+
+
+
+
+Design System & UI/UX Guidelines
+Version 1.0
+
+Design Philosophy
+The website should not resemble a typical local travel or taxi website. Most competitors use cluttered layouts, bright colors, and excessive content.
+Instead, Srii Lakshmi Cab should project the image of a premium, dependable travel brand.
+The design language should communicate:
+Trust
+Elegance
+Professionalism
+Comfort
+Reliability
+The website should feel closer to the websites of premium hospitality brands than to a conventional cab booking service.
+
+Design Inspiration
+The overall experience should take inspiration from:
+Mercedes-Benz
+BMW
+Taj Hotels
+Volvo Buses
+Emirates
+Airbnb (clean layouts)
+Apple (minimalism)
+The goal is not to copy these brands but to emulate their clarity, refinement, and premium presentation.
+
+Brand Personality
+Every element should reinforce these qualities:
+Premium
+Elegant
+Trustworthy
+Minimal
+Sophisticated
+Calm
+Reliable
+Luxurious
+Friendly
+Avoid bright, playful, or distracting visuals.
+
+Color System
+Derived from your logo.
+Primary Colors
+Royal Gold
+Used for highlights, buttons, icons, accents.
+Deep Black
+Main navigation
+Footer
+Hero overlays
+Pure White
+Backgrounds
+Cards
+Content sections
+
+Secondary Colors
+Soft Grey
+Warm Cream
+Light Gold
+These colors create visual hierarchy without overwhelming the design.
+
+Accent Colors
+Success:Emerald Green
+Error:Crimson Red
+Information:Sky Blue
+These should only be used where appropriate (form validation, notifications, etc.).
+
+Typography
+Heading Font
+An elegant serif font such as Cormorant Garamond or Playfair Display.
+Used for:
+Hero headings
+Section titles
+Destination banners
+
+Body Font
+A modern sans-serif font such as Inter or Manrope.
+Used for:
+Paragraphs
+Navigation
+Buttons
+Forms
+
+Font Hierarchy
+Hero Heading:Large, bold, elegant.
+Section Heading:Prominent with generous spacing.
+Subheading:Medium weight.
+Body:Comfortable line height.
+Caption:Smaller, subtle.
+
+Spacing System
+Whitespace is essential to a premium feel.
+Large spacing between sections.
+Consistent margins.
+Avoid cramped layouts.
+Every page should "breathe."
+
+Grid System
+Desktop:12-column layout.
+Tablet:8-column layout.
+Mobile:Single-column layout.
+
+Border Radius
+Rounded but not excessive.
+Buttons:Soft rounded corners.
+Cards:Elegant rounded corners.
+Images:Slight rounding.
+
+Shadows
+Use subtle shadows.
+No harsh effects.
+Depth should feel natural.
+
+Buttons
+Three styles:
+Primary
+Gold background.
+Dark text.
+Used for:
+Request Quote
+Contact
+
+Secondary
+Black background.
+White text.
+Used for:
+Explore Fleet
+Learn More
+
+Outline
+White background.
+Gold border.
+Used for secondary actions.
+
+Icon Style
+Use consistent line icons.
+Examples:
+Phone
+WhatsApp
+Location
+Calendar
+Vehicle
+Passengers
+Avoid cartoon-style icons.
+
+Images
+Large.
+High quality.
+Wide aspect ratio.
+Minimal cropping.
+Focus on:
+Vehicles
+Scenic roads
+Families
+Business travelers
+Tourist destinations
+Avoid generic stock photos that look artificial.
+
+Cards
+Vehicle cards should include:
+Large image
+Vehicle name
+Passenger capacity
+Short description
+Request Quote button
+Hover animation
+
+Hover Effects
+Elegant.
+Examples:
+Image zoom
+Soft shadow increase
+Gold underline animation
+Card elevation
+Never flashy.
+
+Animations
+Animations should feel premium.
+Use Framer Motion for UI transitions.
+Use GSAP sparingly for hero animations.
+
+Hero
+Background slowly zooms.
+Headline fades upward.
+Buttons slide upward.
+
+Scroll
+Sections reveal gradually.
+Cards fade upward.
+Images slide gently.
+Statistics count up.
+
+Navigation
+Smooth transitions.
+Sticky on scroll.
+Transparent to solid background transition.
+
+Gallery
+Images scale slightly on hover.
+
+Loading Screen
+Premium.
+Black background.
+Gold logo animation.
+Progress bar.
+Fade into homepage.
+No long loading times.
+
+Scroll Behaviour
+Smooth scrolling.
+Back-to-top button.
+Sticky header.
+Section highlighting in navigation.
+
+Forms
+Minimal.
+Clean.
+Large inputs.
+Clear labels.
+Real-time validation.
+Success message after submission.
+
+Gallery Layout
+Pinterest-style masonry grid.
+Different image heights.
+Hover overlay with title.
+Lightbox preview.
+
+Testimonials
+Cards with:
+Customer name
+Location
+Star rating
+Review
+Circular avatar
+Auto slider.
+
+FAQ
+Accordion style.
+Only one item expanded at a time.
+Smooth animation.
+
+Statistics
+Animated counters.
+Examples:
+20+
+Years Experience
+Thousands of Happy Customers
+24×7
+Support
+South India Coverage
+
+Footer
+Luxury black background.
+Gold logo.
+Quick links.
+Fleet.
+Services.
+Contact.
+Instagram.
+Google Maps.
+Copyright.
+
+Mobile UI
+Navigation becomes a full-screen slide-in menu.
+Floating buttons:
+📞 Call
+💬 WhatsApp
+🚖 Request Quote
+Bottom sticky CTA bar on mobile for quick access.
+
+Accessibility
+Meet WCAG 2.1 AA guidelines.
+Sufficient color contrast.
+Keyboard navigation.
+Alt text for images.
+Focus indicators.
+Screen-reader-friendly forms.
+Reduced-motion support for users who prefer it.
+
+Reusable Components
+The UI should be built from reusable components, including:
+Navbar
+Footer
+Hero Banner
+Section Heading
+Vehicle Card
+Service Card
+Destination Card
+Feature Card
+Statistic Counter
+Gallery Grid
+Testimonial Carousel
+FAQ Accordion
+Contact Card
+CTA Banner
+Enquiry Form
+Breadcrumb
+Scroll Progress Indicator
+Back-to-Top Button
+
+Branding Rules
+Use the official Srii Lakshmi Cab logo consistently.
+Maintain generous whitespace around the logo.
+Avoid stretching or recoloring the logo.
+Gold accents should be used sparingly to preserve their premium impact.
+
+UI Principle
+One screen. One message. One action.
+Every section should answer a single question and encourage a single next step. Avoid overcrowding pages with too many competing elements.
+Excellent. This is where we'll build the SEO foundation. Most local travels websites ignore this, but this document will determine how discoverable your website is over time.
+
+
+Content Strategy & SEO Architecture
+Version 1.0
+
+SEO Vision
+The website should become the most authoritative online presence for cab, taxi, traveller, and bus rental services in Coimbatore by providing high-quality, locally relevant content and a well-structured information architecture.
+Important: No SEO strategy can guarantee a #1 Google ranking. Search rankings depend on competition, backlinks, reviews, content quality, website performance, and Google's algorithms. Our goal is to follow best practices and create a strong foundation that competes effectively.
+
+Primary Business Keywords
+These represent the core search terms we want to compete for:
+Cab Service in Coimbatore
+Taxi Service in Coimbatore
+Travels in Coimbatore
+Travel Agency in Coimbatore
+Best Cab Service in Coimbatore
+Taxi Booking Coimbatore
+Cab Rental Coimbatore
+Outstation Taxi Coimbatore
+Airport Taxi Coimbatore
+Coimbatore Taxi
+
+Fleet Keywords
+Each fleet category gets its own optimized page.
+Examples:
+Hatchback
+Taxi Hatchback Coimbatore
+Small Car Rental Coimbatore
+
+Sedan
+Sedan Cab Coimbatore
+Sedan Rental Coimbatore
+
+SUV
+SUV Rental Coimbatore
+SUV Taxi Service Coimbatore
+
+MUV
+MUV Rental Coimbatore
+Family Cab Coimbatore
+
+Tempo Traveller
+Tempo Traveller Rental Coimbatore
+12 Seater Traveller Coimbatore
+15 Seater Traveller Coimbatore
+18 Seater Traveller Coimbatore
+20 Seater Traveller Coimbatore
+
+Force Urbania
+Force Urbania Rental Coimbatore
+Luxury Urbania Coimbatore
+
+Coach
+21 Seater Coach Rental Coimbatore
+
+Mini Bus
+29 Seater Mini Bus Coimbatore
+35 Seater Mini Bus Coimbatore
+
+Bus
+Bus Rental Coimbatore
+Luxury Bus Rental Coimbatore
+Tourist Bus Rental Coimbatore
+
+Service Keywords
+Every service receives its own page.
+Airport Pickup
+Airport Drop
+One Way Taxi
+Round Trip Taxi
+Corporate Travel
+Wedding Transportation
+Employee Transport
+Temple Tours
+Family Tour Packages
+Industrial Visits
+Local Sightseeing
+School & College Trips
+
+Destination Strategy
+Each destination gets an individual landing page with:
+Overview
+Best time to visit
+Why travel there
+Vehicle recommendations
+Attractions
+Travel tips
+Frequently asked questions
+Strong call-to-action
+Examples include:
+Ooty
+Coonoor
+Kotagiri
+Valparai
+Munnar
+Kodaikanal
+Mysore
+Bangalore
+Chennai
+Palani
+Madurai
+Rameswaram
+Isha Foundation
+Marudhamalai
+Black Thunder
+Wayanad
+Coorg
+Topslip
+
+Local SEO Strategy
+Create dedicated pages for the major areas around Coimbatore.
+Examples:
+Taxi Service in Singanallur
+Taxi Service in Gandhipuram
+Taxi Service in Peelamedu
+Taxi Service in Saravanampatti
+Taxi Service in RS Puram
+Taxi Service in Saibaba Colony
+Taxi Service in Race Course
+Taxi Service in Ukkadam
+Taxi Service in Avinashi
+Taxi Service in Tiruppur
+Taxi Service in Pollachi
+Taxi Service in Mettupalayam
+Taxi Service in Erode
+Taxi Service in Salem
+Each page should contain genuinely useful, location-specific content rather than duplicated text.
+
+URL Structure
+Keep URLs short, descriptive, and lowercase.
+Examples:
+/
+ /about
+ /fleet
+ /fleet/hatchback
+ /fleet/sedan
+ /fleet/suv
+ /fleet/muv
+ /fleet/tempo-traveller
+ /fleet/force-urbania
+ /fleet/coach
+ /fleet/mini-bus
+ /fleet/bus
+
+ /services
+ /services/airport-transfer
+ /services/outstation-taxi
+ /services/corporate-travel
+
+ /destinations/ooty
+ /destinations/kodaikanal
+ /destinations/munnar
+
+ /gallery
+ /contact
+ /request-quote
+ /faq
+
+
+Homepage SEO
+Title
+Srii Lakshmi Cab | Premium Cab & Taxi Service in Coimbatore Since 2005
+
+Meta Description
+Srii Lakshmi Cab offers premium cab services, airport transfers, outstation taxis, tempo travellers, Urbania, coaches, mini buses, and buses in Coimbatore. Trusted since 2005.
+
+About Page SEO
+Title
+About Srii Lakshmi Cab | Trusted Travel Partner Since 2005
+
+Description
+Learn about Srii Lakshmi Cab, a trusted travel company in Coimbatore providing reliable taxi and travel services across South India since 2005.
+
+Fleet Page SEO
+Title
+Our Fleet | Cars, Tempo Travellers, Urbania, Coaches & Buses
+
+Description
+Explore our fleet of hatchbacks, sedans, SUVs, MUVs, tempo travellers, Force Urbania, coaches, mini buses, and buses for every travel need.
+
+Contact Page SEO
+Title
+Contact Srii Lakshmi Cab | Call, WhatsApp & Visit Our Office
+
+Description
+Get in touch with Srii Lakshmi Cab for cab bookings, outstation trips, airport transfers, and travel enquiries.
+
+Image SEO
+Every image should have:
+Descriptive file names
+Optimized sizes (WebP where possible)
+Meaningful alt text
+Example:
+tempo-traveller-coimbatore.webp
+Alt:
+Tempo Traveller available for group travel from Coimbatore
+
+Structured Data (Schema.org)
+Implement structured data for:
+LocalBusiness
+Organization
+Service
+FAQPage
+BreadcrumbList
+ImageObject
+ContactPoint
+This helps search engines understand the site.
+
+Internal Linking
+Every page should link naturally to related content.
+Example:
+Vehicle pages → Services
+Services → Destinations
+Destinations → Recommended Vehicles
+Blog articles → Relevant Services
+
+Blog Strategy
+Initially, the site can launch without a blog. When you're ready, add articles that genuinely help travellers.
+Examples:
+Weekend Trips from Coimbatore
+Family Vacation Ideas in Tamil Nadu
+Travel Tips for Ooty
+Planning a Group Tour
+Best Time to Visit Valparai
+Quality is more important than quantity.
+
+AI Search Optimization
+Structure content so AI systems can understand it easily:
+Clear headings
+Concise introductions
+FAQ sections
+Lists where appropriate
+Consistent terminology
+Structured data
+
+Trust Signals
+Prominently display:
+Established in 2005
+Office address
+Multiple contact numbers
+WhatsApp
+Instagram
+Google Maps
+Customer testimonials
+Real fleet photos (replace placeholders as they become available)
+
+Performance SEO
+Targets:
+Mobile-first
+Fast loading
+Compressed images
+Lazy loading
+Semantic HTML
+Accessible forms
+Clean URLs
+
+Content Tone
+Every page should sound:
+Professional
+Friendly
+Confident
+Informative
+Customer-focused
+Avoid exaggerated marketing claims such as "No.1" or "Guaranteed best" unless they can be substantiated.
+
+AI Coding Agent Notes
+The content management approach should keep SEO metadata, page content, FAQs, and destination information in structured data files or a lightweight CMS-friendly format so they can be updated easily without changing the application logic.
+
+
+Home Page UI/UX Specification
+Version 1.0
+
+Home Page Objective
+The homepage should answer three questions within the first 10 seconds:
+Who are you?
+Why should I trust you?
+How do I contact you?
+Everything on the homepage should lead to one action:
+Call → WhatsApp → Request a Quote
+No distractions.
+
+Page Flow
+Premium Navigation
+
+↓
+
+Hero Video
+
+↓
+
+Trust Indicators
+
+↓
+
+About Preview
+
+↓
+
+Fleet Showcase
+
+↓
+
+Services
+
+↓
+
+Popular Destinations
+
+↓
+
+Why Choose Us
+
+↓
+
+Journey Timeline
+
+↓
+
+Customer Reviews
+
+↓
+
+Gallery
+
+↓
+
+FAQs
+
+↓
+
+Final CTA
+
+↓
+
+Luxury Footer
+
+
+Navigation Bar
+Desktop
+Transparent initially.
+Turns matte black after scrolling.
+Height: 80px
+Layout:
+Logo | Home About Fleet Services Destinations Gallery Contact | Call | WhatsApp | Request Quote
+
+
+Mobile
+Logo
+Hamburger Menu
+Call Button
+When menu opens:
+Home
+
+About
+
+Fleet
+
+Services
+
+Destinations
+
+Gallery
+
+FAQs
+
+Contact
+
+Request Quote
+
+Animation:
+Slides from right.
+Background blur.
+
+Hero Section
+Height
+100vh
+
+Background
+Full-screen cinematic video.
+Sequence:
+Airport pickup
+Luxury sedan
+SUV
+Traveller
+Urbania
+Mini Bus
+Hill roads
+Family travel
+Night driving
+Sunrise drone shot
+Video loops silently.
+Fallback:
+Premium static image.
+
+Overlay
+Black gradient.
+Opacity about 55%.
+
+Headline
+Premium Cab & Travel Services
+in Coimbatore
+
+
+Subheading
+Trusted Since 2005
+
+Reliable transportation for Airport Transfers,
+Corporate Travel,
+Family Vacations,
+Wedding Transportation
+and South India Tours.
+
+
+Primary Buttons
+Gold
+Request Quote
+
+Black
+Call Now
+
+Outline
+WhatsApp
+
+Animation
+Headline fades upward.
+Buttons appear one after another.
+Background slowly zooms.
+
+Trust Badge Strip
+White background.
+Five icons.
+Established 2005
+
+Professional Drivers
+
+Premium Fleet
+
+24×7 Service
+
+South India Coverage
+
+Animated counter when visible.
+
+About Preview
+Two columns.
+Left
+Large company image.
+Right
+Heading
+Travel with Confidence
+
+Paragraph.
+Button
+Learn More
+Background:
+Soft cream.
+
+Fleet Showcase
+Heading
+Explore Our Premium Fleet
+
+Grid.
+Desktop
+3 columns.
+Tablet
+2 columns.
+Mobile
+1 column.
+
+Cards
+Image
+Vehicle Name
+Capacity
+Ideal For
+Explore Button
+Hover:
+Image zoom
+Gold border
+Shadow
+
+Vehicles
+Hatchback
+Sedan
+SUV
+MUV
+Tempo Traveller
+Force Urbania
+Coach
+Mini Bus
+Bus
+
+Services Section
+Luxury icon cards.
+Airport Transfer
+Outstation Taxi
+Corporate Travel
+Wedding Travel
+Temple Tours
+Employee Transport
+Local Sightseeing
+Family Tours
+
+Each card links to dedicated page.
+
+Popular Destinations
+Heading
+Explore South India
+with Srii Lakshmi Cab
+
+Cards
+Ooty
+Kodaikanal
+Munnar
+Valparai
+Mysore
+Palani
+Isha Foundation
+Black Thunder
+Hover:
+Image zoom.
+Gradient overlay.
+Button:
+Explore
+
+Why Choose Srii Lakshmi Cab
+Black background.
+Gold icons.
+Cards
+20+ Years Experience
+
+Professional Drivers
+
+Clean Vehicles
+
+Punctual Service
+
+Flexible Travel Plans
+
+Premium Comfort
+
+24×7 Availability
+
+Customer First Approach
+
+
+Journey Timeline
+Horizontal.
+Choose Vehicle
+
+↓
+
+Share Your Trip
+
+↓
+
+Receive Confirmation
+
+↓
+
+Enjoy Your Journey
+
+Minimal icons.
+
+Statistics
+Animated numbers.
+20+
+
+Years
+
+24×7
+
+Availability
+
+South India
+
+Coverage
+
+Multiple
+
+Vehicle Categories
+
+Do not display customer counts or trip counts unless you have verified data.
+
+Testimonials
+Three large cards.
+Circular avatar.
+Stars.
+Customer review.
+Auto slide.
+
+Gallery Preview
+Pinterest layout.
+Images
+Vehicles
+Customers
+Destinations
+Hover
+View Image
+Button
+View Gallery
+
+FAQ
+Accordion.
+Questions
+How do I request a cab?
+How early should I book?
+Do you provide airport pickup?
+Can I book for South India tours?
+Do you provide buses?
+Do you provide Urbania?
+Do you provide Tempo Traveller?
+How do I contact you?
+
+Instagram Preview
+Show latest Instagram images.
+Button
+Follow Srii Lakshmi Cab
+
+Final CTA
+Full-width black section.
+Headline
+Ready for Your Next Journey?
+
+Subheading
+We're available 24×7 to help you plan
+comfortable and reliable travel across South India.
+
+Buttons
+Call
+WhatsApp
+Request Quote
+
+Footer
+Black.
+Logo.
+About.
+Fleet.
+Services.
+Popular Destinations.
+Contact.
+Working Hours.
+Instagram.
+Google Maps.
+Copyright.
+
+Floating Elements
+Desktop
+WhatsApp
+Call
+Back to Top
+
+Mobile
+Bottom sticky bar
+📞 Call
+
+💬 WhatsApp
+
+🚖 Request Quote
+
+Always visible.
+
+Animation Rules
+Keep animations purposeful and subtle.
+Hero: fade and slight upward motion.
+Cards: lift slightly on hover.
+Counters: animate once when scrolled into view.
+Avoid flashy rotations, excessive parallax, or distracting effects.
+
+Homepage Performance
+Largest Contentful Paint under 2.5 seconds.
+Lazy-load images below the fold.
+Compress and optimize video.
+Provide static image fallback for slow connections.
+Respect users who prefer reduced motion.
+
+Homepage Accessibility
+Keyboard navigation for all interactive elements.
+Alt text for all images.
+Visible focus states.
+Sufficient color contrast.
+Buttons and links clearly distinguishable.
+
+AI Coding Agent Notes
+The homepage should be assembled from reusable sections. Content (headings, text, destinations, services, and fleet) should be driven by structured data so it can be updated without changing component code. Animations should degrade gracefully on low-powered devices.
+
+Additional Enhancement (Recommended)
+Instead of a static hero, I'd recommend adding a full-width "Quick Enquiry" panel directly beneath the hero.
+Fields:
+Pickup Location
+Destination
+Travel Date
+Vehicle Category
+Phone Number
+CTA:"Request a Free Quote"
+This isn't a booking engine—it's a lead capture form. It gives visitors an immediate way to contact you without scrolling to the Contact page and can significantly increase enquiry conversions while keeping the website simple and aligned with your business model.
+Fleet Module & Vehicle Experience
+Version 1.0
+
+Fleet Philosophy
+The fleet is not just a list of vehicles.
+It is the primary product of Srii Lakshmi Cab.
+Every vehicle page should convince visitors:
+"This vehicle is perfect for my trip."
+The experience should feel like browsing luxury automobiles—not reading a specification sheet.
+
+Fleet Navigation
+Fleet
+
+├── Hatchback
+├── Sedan
+├── SUV
+├── MUV
+├── Tempo Traveller
+├── Force Urbania
+├── Coach (21 Seater)
+├── Mini Bus
+└── Bus
+
+Each category gets:
+Dedicated page
+SEO page
+Premium images
+Individual enquiry button
+
+Fleet Landing Page
+Hero Banner
+Title
+Our Premium Fleet
+Subtitle
+Comfortable vehicles for every journey, from solo travel to large group tours across South India.
+Background
+Luxury fleet image.
+
+Category Cards
+Large premium cards.
+Each card contains:
+Vehicle Image
+Vehicle Name
+Passenger Capacity
+Suitable For
+Explore Fleet
+Hover Animation
+
+Example
+SUV
+
+6–7 Seater
+
+Perfect for families and small groups.
+
+Explore →
+
+
+Universal Vehicle Page Layout
+Every fleet category follows the same layout.
+
+Section 1
+Hero Banner
+Large vehicle image.
+Breadcrumb
+Home
+
+Fleet
+
+SUV
+
+Large heading
+
+Section 2
+Vehicle Overview
+Large image.
+Short introduction.
+Example
+Our SUV fleet combines spacious interiors, comfort, and reliability, making it ideal for family vacations, airport transfers, and long-distance journeys.
+
+Section 3
+Image Gallery
+Large gallery.
+Desktop
+4-column masonry.
+Mobile
+Swipe gallery.
+Images:
+Exterior
+Interior
+Seats
+Dashboard
+Luggage
+Side profile
+Night view
+
+Section 4
+Suitable For
+Beautiful icons.
+Examples
+✔ Family Trips
+✔ Corporate Travel
+✔ Airport Transfer
+✔ Weekend Tours
+✔ Temple Visits
+✔ Business Meetings
+
+Section 5
+Features
+Instead of technical specs.
+Example
+Fully Air Conditioned
+Comfortable Seating
+Large Luggage Space
+Experienced Driver
+Music System
+Charging Ports
+Clean Interiors
+Regular Maintenance
+GPS Navigation
+Sanitized Vehicles
+
+Section 6
+Recommended Destinations
+Cards.
+Ooty
+Kodaikanal
+Munnar
+Valparai
+Mysore
+Each links to destination page.
+
+Section 7
+Quick Enquiry
+Simple form.
+Vehicle already selected.
+User fills:
+Name
+Phone
+Pickup
+Destination
+Travel Date
+Passengers
+Message
+Submit
+
+Section 8
+Related Vehicles
+Carousel.
+Users can explore another vehicle.
+
+Hatchback Page
+Suitable For
+City travel
+Airport
+Couples
+Small family
+Business meetings
+Highlight
+Economical
+Comfortable
+Reliable
+
+Sedan Page
+Suitable For
+Business travel
+Airport
+Family
+Wedding guest transport
+Highlight
+Premium comfort
+Extra legroom
+Elegant interiors
+
+SUV Page
+Suitable For
+Hill stations
+Family tours
+Weekend trips
+Corporate
+Highlight
+Spacious
+Comfortable
+Long-distance travel
+
+MUV Page
+Suitable For
+Families
+Friends
+Pilgrimage
+Airport
+Highlight
+Extra seating
+Comfort
+Reliable
+
+Tempo Traveller
+Separate premium page.
+Capacities
+12
+15
+18
+20
+Sections
+Luxury seating
+Large luggage
+Tour ready
+Perfect for
+School trips
+College tours
+Pilgrimage
+Family vacations
+Corporate outings
+
+Force Urbania
+One of the premium vehicles.
+Capacities
+12
+15
+17
+20
+Focus on:
+Luxury
+Premium interiors
+Executive travel
+VIP guests
+Corporate travel
+Wedding guests
+Airport groups
+Highlight with larger imagery than other fleet pages.
+
+Coach
+Only one capacity.
+21 Seater
+Suitable for:
+Corporate outings
+Wedding guests
+Family functions
+Comfortable group travel
+
+Mini Bus
+Capacities
+29
+35
+Ideal for:
+School
+College
+Temple
+Corporate
+Industrial
+Tour groups
+
+Bus
+Suitable for
+Large groups
+Industrial transport
+Educational institutions
+Pilgrimage
+Tour operators
+Wedding functions
+Highlight:
+Comfort
+Safety
+Professional drivers
+
+Fleet Comparison
+Instead of pricing.
+Simple comparison.
+
+
+
+Vehicle
+
+
+Capacity
+
+
+Best For
+
+
+Hatchback
+
+
+4
+
+
+City Travel
+
+
+Sedan
+
+
+4
+
+
+Business
+
+
+SUV
+
+
+6–7
+
+
+Families
+
+
+MUV
+
+
+6–7
+
+
+Family Groups
+
+
+Traveller
+
+
+12–20
+
+
+Tours
+
+
+Urbania
+
+
+12–20
+
+
+Premium Groups
+
+
+Coach
+
+
+21
+
+
+Medium Groups
+
+
+Mini Bus
+
+
+29–35
+
+
+Large Groups
+
+
+Bus
+
+
+40+
+
+
+Very Large Groups
+No price.
+No fare.
+
+CTA Philosophy
+Every fleet page ends with
+
+Need help choosing the right vehicle?
+📞 Call Us
+💬 WhatsApp
+🚖 Request a Quote
+
+SEO
+Every page contains
+Hero
+Introduction
+Features
+Ideal Uses
+Destinations
+FAQs
+Contact CTA
+Google loves long-form structured pages.
+
+FAQ Per Vehicle
+Example
+SUV
+Can it be used for Ooty?
+Yes.
+Is it suitable for family?
+Yes.
+Can I book for airport?
+Yes.
+Do you provide driver?
+Yes.
+
+Photography Rules
+Use large images.
+Avoid blurry photos.
+Keep same aspect ratio.
+Minimal editing.
+Natural lighting.
+When real photos become available, replace placeholder stock images.
+
+Animation
+Hero
+Fade
+Gallery
+Lightbox
+Cards
+Lift
+Buttons
+Glow
+Nothing flashy.
+
+Accessibility
+Alt text.
+Keyboard gallery.
+Swipe support.
+Readable text.
+Large buttons.
+
+AI Coding Agent Instructions
+Fleet information should come from structured JSON or TypeScript data files. The same reusable page template should render every vehicle category based on its data, reducing duplication and making it easy to update or add vehicles later.
+
+🚀 My biggest suggestion (This is what no Coimbatore travels website has)
+Instead of simply showing vehicles...
+Create a Vehicle Recommendation Wizard.
+It asks just three questions:
+How many passengers?
+Destination (Hill station / City / Airport / Outstation)
+Luggage (Light / Medium / Heavy)
+Then it recommends:
+"Recommended Vehicle for Your Journey"
+Example:
+👨‍👩‍👧‍👦 15 Passengers📍 Ooty🧳 Heavy Luggage
+Recommended: Tempo Traveller 20 Seater
+Why?
+Comfortable for hill roads
+Extra luggage capacity
+Spacious seating
+Ideal for group tours
+Then show:
+Request Quote
+Call
+WhatsApp
+This is not a fare calculator, doesn't require pricing, and doesn't take away from the personal interaction you want. It simply helps customers who aren't sure which vehicle to choose, creating a premium, consultative experience while generating more qualified enquiries.
+Services & Destination Experience
+Version 1.0
+
+Philosophy
+Visitors don't hire a vehicle.
+They hire it for a purpose.
+Examples:
+✈️ Airport Pickup
+💍 Wedding
+🏢 Corporate Meeting
+🏔️ Ooty Trip
+🛕 Temple Visit
+👨‍👩‍👧 Family Vacation
+Every service page should make visitors feel:
+"This company understands exactly what I need."
+
+Services Landing Page
+Hero Banner
+Luxury image.
+Heading
+Travel Solutions for Every Journey
+Subtitle
+Whether you're travelling alone, with family, or with a large group, Srii Lakshmi Cab provides reliable transportation across South India.
+
+Grid
+Airport Transfers
+Outstation Trips
+Corporate Travel
+Wedding Transportation
+Employee Transport
+Local Sightseeing
+Temple Tours
+Family Tours
+Industrial Visits
+School & College Trips
+
+Universal Service Page Structure
+Every service page follows the same layout.
+
+Hero
+Large scenic image.
+Service title.
+Short introduction.
+CTA
+
+About Service
+Professional description.
+Not generic.
+Tell customers why they should choose Srii Lakshmi Cab.
+
+Why Choose Us
+Elegant cards.
+Professional Drivers
+Comfortable Vehicles
+24×7 Support
+Flexible Planning
+Safe Journey
+Reliable Service
+
+Recommended Vehicles
+Instead of showing every vehicle.
+Show recommended ones.
+Example
+Airport
+Sedan
+SUV
+Urbania
+Traveller
+
+How It Works
+Simple timeline.
+Share Trip Details
+↓
+Receive Confirmation
+↓
+Driver Assigned
+↓
+Enjoy Journey
+
+FAQ
+Specific to the service.
+
+CTA
+Large section.
+Call
+WhatsApp
+Request Quote
+
+Airport Transfer
+Hero
+Airport terminal.
+Luxury sedan.
+Content
+Airport travel requires punctuality, comfort, and reliability. Srii Lakshmi Cab provides timely pickups and drop-offs with professional drivers for stress-free travel.
+Suitable Vehicles
+Sedan
+SUV
+Urbania
+Traveller
+
+Outstation Taxi
+Hero
+Hill roads.
+Content
+Explore South India with comfortable vehicles and experienced drivers. Whether it's a weekend getaway or a multi-day tour, we help make every journey enjoyable.
+Recommended
+SUV
+Traveller
+Urbania
+Bus
+
+Corporate Travel
+Professional.
+Business.
+Airport.
+Meetings.
+Events.
+Industrial visits.
+Emphasis on professionalism and punctuality.
+
+Wedding Transportation
+Luxury.
+Family.
+Guests.
+Bride & Groom logistics.
+Large groups.
+Vehicles
+Sedan
+SUV
+Traveller
+Urbania
+Coach
+Mini Bus
+Bus
+
+Temple Tours
+Beautiful temple photography.
+Examples
+Palani
+Marudhamalai
+Isha
+Madurai
+Rameswaram
+Velankanni
+Sabarimala
+Provide peaceful travel messaging.
+
+Family Tours
+Weekend trips.
+Summer holidays.
+School vacations.
+Comfort.
+Safety.
+
+Employee Transportation
+Factories.
+IT Companies.
+Daily commute.
+Corporate contracts.
+
+Industrial Visits
+Suitable for
+Schools
+Engineering Colleges
+Corporate Teams
+Industrial Tours
+
+School & College Trips
+Student groups.
+Educational tours.
+Picnics.
+Industrial visits.
+Safety focused.
+
+Local Sightseeing
+Coimbatore
+Black Thunder
+Monkey Falls
+VOC Park
+Adiyogi
+Marudhamalai
+Each links to destination page.
+
+Destination Philosophy
+Destination pages should feel like travel guides.
+Not advertisements.
+Google rewards useful content.
+
+Destination Page Layout
+Hero Image
+Destination title
+Overview
+Best Time to Visit
+Places to Visit
+Suggested Itinerary
+Recommended Vehicle
+Travel Tips
+FAQs
+CTA
+
+Example
+Ooty
+Hero
+Nilgiri hills.
+Heading
+Travel from Coimbatore to Ooty with Comfort
+Overview
+Describe Ooty.
+Not copied.
+Professionally written.
+
+Attractions
+Botanical Garden
+Ooty Lake
+Doddabetta Peak
+Tea Factory
+Pykara Lake
+Rose Garden
+
+Best Time
+October–June
+
+Vehicle Recommendation
+Family
+SUV
+Large Group
+Traveller
+Luxury Group
+Urbania
+
+Travel Tips
+Carry jackets.
+Morning departures recommended.
+Book during holidays in advance.
+
+CTA
+Call
+WhatsApp
+Request Quote
+
+Repeat for
+Kodaikanal
+Munnar
+Valparai
+Coonoor
+Kotagiri
+Mysore
+Bangalore
+Chennai
+Coorg
+Wayanad
+Palani
+Madurai
+Rameswaram
+Isha Foundation
+Marudhamalai
+Topslip
+Black Thunder
+
+Destination Cards
+Large image.
+Gradient overlay.
+Destination name.
+Explore button.
+
+Internal Linking
+Every destination links
+↓
+Recommended vehicle
+↓
+Service
+↓
+Quote
+
+FAQ
+Every destination
+How far?
+Best vehicle?
+Best season?
+Suitable for kids?
+Suitable for senior citizens?
+Road conditions?
+
+Gallery
+Destination images.
+Customer trips.
+Vehicles.
+
+Mobile
+Large cards.
+Swipe gallery.
+Sticky CTA.
+
+AI Search Optimization
+Every destination page answers common traveller questions using clear headings and concise explanations. This helps both traditional search engines and AI-powered search systems understand and surface your content.
+
+AI Coding Agent Instructions
+Service pages and destination pages should be data-driven. Use reusable templates populated from structured content files (JSON/TypeScript), making it easy to add new destinations or services later without changing the layout or logic.
+
+⭐ NEW FEATURE (Unique Selling Point)
+Trip Planner Assistant
+Instead of just:
+Request Quote
+Visitors can click:
+Help Me Plan My Trip
+It opens a simple assistant asking:
+Where are you travelling?
+↓
+How many passengers?
+↓
+One day or multiple days?
+↓
+Preferred vehicle? (Optional)
+↓
+Special requirements?
+↓
+Submit
+The enquiry arrives in your Gmail like:
+New Trip Planning Request
+Destination: Ooty
+Passengers: 14
+Days: 3
+Suggested Vehicle: Tempo Traveller
+Contact: XXXXXXX
+This keeps the experience personal, generates richer enquiries than a basic contact form, and positions Srii Lakshmi Cab as a travel partner rather than just a vehicle provider.
+
+🚀 Major Improvement (Our Biggest Competitive Advantage)
+After reviewing many travel websites, there's one feature almost all of them miss:
+"Find the Perfect Vehicle"
+This is not a fare calculator and not a booking system.
+It asks just three simple questions:
+Number of passengers
+Trip type (Airport, Family Tour, Corporate, Wedding, Pilgrimage)
+Luggage (Light / Medium / Heavy)
+It then recommends the most suitable vehicle and explains why.
+Example:
+Recommended Vehicle: Force Urbania 17 Seater
+✔ Premium comfort for long-distance travel
+✔ Spacious seating for your group
+✔ Ideal for luggage and hill station trips
+Buttons:
+📞 Call Now
+💬 WhatsApp
+🚖 Request a Quote
+This creates a guided experience that very few regional travel websites offer and helps visitors make confident decisions without discussing prices online.
+Lead Generation & Conversion System
+Version 1.0
+
+Core Principle
+The website is not a booking portal.
+It is a lead generation platform.
+Every page should naturally encourage one of three actions:
+📞 Call
+💬 WhatsApp
+📝 Request a Quote
+Nothing else.
+
+Lead Flow
+Visitor
+
+↓
+
+Explores Website
+
+↓
+
+Views Fleet / Service / Destination
+
+↓
+
+Clicks Request Quote
+
+↓
+
+Fills Short Form
+
+↓
+
+Stored in Database
+
+↓
+
+Email Sent to Gmail
+
+↓
+
+Admin Calls Customer
+
+↓
+
+Trip Confirmed
+
+No payment.
+No login.
+No online booking confirmation.
+
+Contact Methods
+The website should always make it effortless to contact you.
+Primary
+📞 Call
+Secondary
+💬 WhatsApp
+Third
+📝 Request Quote
+
+Floating Action Buttons
+Desktop
+Bottom Right
+WhatsApp
+Call
+Back To Top
+
+Mobile
+Sticky Bottom Bar
+📞 Call
+
+💬 WhatsApp
+
+🚖 Request Quote
+
+Always visible.
+Never hidden.
+
+Universal Enquiry Form
+This same component is reused throughout the website.
+Fields
+Name *
+Mobile Number *
+Pickup Location *
+Destination *
+Travel Date *
+Vehicle Required
+Passengers
+Trip Type
+Additional Message
+Submit
+
+Vehicle Selection
+Dropdown
+Not Sure Yet
+
+Hatchback
+
+Sedan
+
+SUV
+
+MUV
+
+Tempo Traveller
+
+Force Urbania
+
+Coach
+
+Mini Bus
+
+Bus
+
+
+Trip Type
+Dropdown
+Airport
+Outstation
+Wedding
+Corporate
+Family Tour
+Temple Tour
+Industrial Visit
+School / College
+Local
+Other
+
+Validation
+Required
+Name
+Phone
+Pickup
+Destination
+Date
+Optional
+Vehicle
+Passengers
+Message
+
+Mobile Number Validation
+Only valid Indian mobile numbers.
+Length
+10 digits.
+Prevent invalid characters.
+
+Success Screen
+Instead of
+"Submitted"
+Display
+
+Thank You!
+Thank you for choosing
+Srii Lakshmi Cab
+Our travel advisor will contact you shortly.
+Meanwhile you can also call us directly.
+Buttons
+📞 Call
+💬 WhatsApp
+
+Gmail Integration
+Use Gmail SMTP with Nodemailer.
+Email Subject
+New Travel Enquiry - Srii Lakshmi Cab
+
+Body
+Customer Name
+
+Phone
+
+Pickup
+
+Destination
+
+Travel Date
+
+Vehicle
+
+Passengers
+
+Trip Type
+
+Additional Notes
+
+Simple.
+Readable.
+
+WhatsApp Integration
+Every WhatsApp button opens a pre-filled message.
+Example
+Hello Srii Lakshmi Cab,
+
+I would like to enquire about a trip.
+
+Pickup:
+
+Destination:
+
+Travel Date:
+
+Passengers:
+
+Vehicle:
+
+Please contact me.
+
+This makes it easy for customers to start the conversation.
+
+Call Button
+Direct dial.
+No popup.
+One click.
+
+Quick Enquiry (Homepage)
+Small elegant form.
+Fields
+Pickup
+Destination
+Date
+Phone
+Submit
+Purpose:
+Capture leads immediately.
+
+Vehicle Page Enquiry
+Vehicle already selected.
+Customer only enters
+Name
+Phone
+Pickup
+Destination
+Date
+Passengers
+Submit
+
+Destination Page Enquiry
+Destination pre-filled.
+Vehicle optional.
+
+Service Page Enquiry
+Service pre-filled.
+Vehicle optional.
+
+Contact Page
+Full enquiry form.
+Map.
+Address.
+Phone.
+Instagram.
+Business Hours.
+
+Admin Experience
+You don't need a dashboard initially.
+Every enquiry
+↓
+Database
+↓
+Email
+↓
+Customer Call
+Simple.
+Reliable.
+
+Database Structure
+enquiries
+id
+
+name
+
+phone
+
+pickup
+
+destination
+
+travel_date
+
+vehicle
+
+trip_type
+
+passengers
+
+message
+
+created_at
+
+
+Spam Protection
+Instead of annoying CAPTCHA:
+Use
+Hidden Honeypot Field
+
+Rate Limiting
+
+Server Validation
+This keeps the experience smooth while reducing spam.
+
+User Trust Elements
+Near every form show:
+✔ Your information is safe.
+✔ We never share your details.
+✔ No advance payment required to enquire.
+
+Response Time Promise
+Display:
+We usually respond within 15–30 minutes during business hours.
+(If this is realistic for your business.)
+
+Contact Cards
+Large premium cards.
+📞 Phone
+💬 WhatsApp
+📍 Office
+📧 Gmail
+
+Map
+Leaflet
+OpenStreetMap
+Interactive.
+Marker
+Directions Button
+
+Instagram
+Button
+Follow Us
+Gallery preview
+
+Sticky CTA
+When user scrolls
+Bottom appears
+Need help planning your trip?
+Request Quote
+
+Exit Intent (Desktop Only)
+Instead of annoying popups,
+If user moves mouse toward closing tab,
+Show elegant modal.
+
+Heading
+Leaving already?
+Need help selecting the perfect vehicle?
+Buttons
+WhatsApp
+Call
+No Thanks
+Only once.
+
+AI Lead Scoring (Future)
+Don't build now.
+Structure code so later we can detect
+High priority
+Wedding
+Corporate
+Large Group
+Airport Today
+and highlight them.
+
+Enquiry Analytics
+Track
+Homepage enquiries
+Fleet enquiries
+Destination enquiries
+Service enquiries
+Most viewed vehicle
+Most viewed destination
+Most clicked CTA
+Do not store unnecessary personal data.
+
+Privacy
+Display:
+We only use your contact details to respond to your enquiry.
+We never sell or share your personal information.
+
+Performance
+Forms must submit in under 2 seconds.
+Display loading indicator.
+Prevent duplicate submissions.
+Show clear success or error messages.
+
+AI Coding Agent Instructions
+Create a single reusable EnquiryForm component that accepts pre-filled context (vehicle, service, or destination) as props. Keep validation consistent across all pages. Ensure forms are accessible, keyboard-friendly, and responsive.
+
+🚀 NEW FEATURE (Premium Lead Capture)
+"Talk to a Travel Advisor"
+Instead of a generic contact form, introduce a dedicated section:
+Need help planning your journey?
+Our travel advisors can help you choose the right vehicle, plan your itinerary, and answer your travel questions.
+Buttons:
+📞 Speak to an Advisor
+💬 Chat on WhatsApp
+📝 Request a Callback
+This reinforces that Srii Lakshmi Cab offers guidance, not just transportation.
+
+⭐ My Biggest Recommendation (Unique to Srii Lakshmi Cab)
+This is the feature I believe can become your signature.
+"Journey Concierge"
+Instead of saying:
+Request Quote
+Say:
+Plan My Journey
+This subtle wording changes the perception of your business.
+Customers feel they're receiving a personalized travel consultation rather than just requesting a cab.
+When they click it:
+Tell us about your journey, and we'll recommend the most suitable vehicle and travel plan.
+This aligns perfectly with your business model because:
+You don't display prices.
+You don't automate bookings.
+You personally speak with every customer.
+It positions Srii Lakshmi Cab as a trusted travel partner rather than a vehicle rental service.
+That single change in language can significantly elevate your brand image while encouraging more meaningful enquiries.
+Technical Architecture & Development Standards
+Version 1.0
+
+Technical Vision
+The website must be:
+Extremely fast
+SEO-first
+Mobile-first
+Component-based
+Scalable
+Easy to maintain
+Modern
+Secure
+Future-ready
+This project should follow enterprise-grade engineering practices even though it is a business showcase website.
+
+Technology Stack
+Frontend
+React 19
+Vite
+TypeScript
+Tailwind CSS
+Framer Motion
+GSAP (Hero animations only)
+React Router
+React Helmet Async
+SwiperJS
+React Hook Form
+Zod Validation
+
+Backend
+Node.js
+Express.js
+
+Database
+SQLite
+Reason:
+Free
+Lightweight
+Easy backup
+Perfect for enquiry storage
+Future migration:
+PostgreSQL
+without changing frontend.
+
+Email
+Nodemailer
+Gmail SMTP
+
+Maps
+Leaflet
+OpenStreetMap
+
+Icons
+Lucide React
+No mixed icon libraries.
+
+Image Optimization
+Sharp
+WebP
+Lazy Loading
+
+Folder Structure
+SriiLakshmiCab/
+
+├── client/
+│
+│   ├── public/
+│   │
+│   ├── src/
+│   │
+│   ├── assets/
+│   │   ├── logo/
+│   │   ├── fleet/
+│   │   ├── destinations/
+│   │   ├── gallery/
+│   │   ├── icons/
+│   │   └── videos/
+│   │
+│   ├── components/
+│   │
+│   │   ├── common/
+│   │   ├── layout/
+│   │   ├── fleet/
+│   │   ├── destination/
+│   │   ├── services/
+│   │   ├── enquiry/
+│   │   ├── gallery/
+│   │   ├── faq/
+│   │   ├── testimonials/
+│   │   └── ui/
+│   │
+│   ├── pages/
+│   │
+│   ├── routes/
+│   │
+│   ├── hooks/
+│   │
+│   ├── services/
+│   │
+│   ├── data/
+│   │
+│   ├── types/
+│   │
+│   ├── utils/
+│   │
+│   ├── seo/
+│   │
+│   ├── animations/
+│   │
+│   ├── constants/
+│   │
+│   └── styles/
+│
+└── server/
+
+    ├── routes/
+
+    ├── controllers/
+
+    ├── middleware/
+
+    ├── services/
+
+    ├── database/
+
+    ├── config/
+
+    ├── utils/
+
+    └── models/
+
+
+Coding Standards
+Use
+Strict TypeScript
+No "any"
+Meaningful names
+Reusable functions
+Reusable components
+Proper comments
+No duplicated code
+
+Naming Convention
+Components
+HeroSection.tsx
+
+FleetCard.tsx
+
+Navbar.tsx
+
+Hooks
+useScroll.ts
+
+useGallery.ts
+
+Pages
+HomePage.tsx
+
+AboutPage.tsx
+
+FleetPage.tsx
+
+
+State Management
+React Context
+Only if required.
+No Redux.
+No MobX.
+Simple.
+
+Routing
+React Router
+Routes
+/
+
+about
+
+fleet
+
+fleet/sedan
+
+fleet/suv
+
+fleet/traveller
+
+services
+
+destinations
+
+gallery
+
+contact
+
+request-quote
+
+Lazy load every route.
+
+API Design
+POST
+/enquiry
+Store enquiry.
+Send Gmail.
+Return success.
+
+GET
+/fleet
+Returns fleet list.
+
+GET
+/services
+Returns services.
+
+GET
+/destinations
+Returns destinations.
+
+GET
+/faqs
+Returns FAQ.
+
+Database
+Table
+enquiries
+id
+
+name
+
+phone
+
+pickup
+
+destination
+
+travel_date
+
+vehicle
+
+trip_type
+
+passengers
+
+message
+
+created_at
+
+
+Component Structure
+Navbar
+Footer
+Hero
+Fleet Grid
+Fleet Card
+Destination Card
+Service Card
+Statistic Counter
+Gallery
+FAQ
+Contact Card
+CTA
+Enquiry Form
+WhatsApp Button
+Call Button
+Back To Top
+Everything reusable.
+
+Data Driven Website
+Instead of writing content inside components,
+Create
+fleet.ts
+services.ts
+destinations.ts
+faq.ts
+gallery.ts
+testimonials.ts
+seo.ts
+Every page reads from these.
+Updating content should not require code changes.
+
+SEO Files
+Every page contains
+Title
+Description
+Keywords
+OpenGraph
+Twitter
+Canonical
+Schema
+
+Security
+Helmet
+Rate Limiter
+Input Validation
+Sanitize Inputs
+No SQL Injection
+No XSS
+No exposed secrets
+Environment variables only.
+
+Environment Variables
+GMAIL_USER
+
+GMAIL_PASSWORD
+
+DATABASE_URL
+
+SITE_URL
+
+Never hardcode credentials.
+
+Image Handling
+Every image
+Lazy loaded
+WebP
+Responsive sizes
+Proper alt text
+Compressed
+
+Performance
+Use
+Memo
+Lazy
+Suspense
+Dynamic Import
+Avoid unnecessary re-renders.
+
+Lighthouse Goal
+Performance
+95+
+Accessibility
+95+
+SEO
+100
+Best Practices
+100
+
+Mobile First
+Design begins
+375px
+then
+768px
+then
+1024px
+then
+1440px
+Desktop afterwards.
+
+Browser Support
+Chrome
+Edge
+Firefox
+Safari
+Mobile Chrome
+Mobile Safari
+
+Error Pages
+404
+500
+Offline
+Custom.
+Branded.
+
+Analytics
+Privacy-friendly analytics (e.g., Plausible or Umami self-hosted if you later want analytics without invasive tracking).
+Track only:
+Page views
+CTA clicks
+Form submissions
+No unnecessary user profiling.
+
+Sitemap
+Auto generated.
+robots.txt
+Generated automatically.
+
+Deployment
+Hostinger
+Steps
+Build
+
+↓
+
+Upload
+
+↓
+
+Node Backend
+
+↓
+
+Configure Environment Variables
+
+↓
+
+Enable HTTPS
+
+↓
+
+Launch
+
+
+Backup
+Daily database backup.
+Weekly full backup.
+Monthly archive.
+
+AI Coding Agent Instructions
+The AI should treat this project as a production-grade application. Code should be modular, strongly typed, documented where necessary, and easy to extend. Business data (fleet, services, destinations, FAQs, SEO metadata) must remain separate from presentation logic. All UI should be responsive, accessible, and optimized for performance.
+
+⭐ Additional Technical Recommendation
+Rather than storing large amounts of static content directly in the frontend, create a lightweight content layer using structured TypeScript/JSON files. For example:
+fleet.ts
+services.ts
+destinations.ts
+faq.ts
+seo.ts
+This gives you many of the benefits of a CMS (easy updates, centralized content, consistency) without adding the complexity or maintenance of a separate content management system.
+Premium Animations, User Experience & Brand Interaction
+Version 1.0
+
+UX Philosophy
+Animation should never exist just to look cool.
+Every animation should have a purpose.
+Guide attention
+Build trust
+Improve navigation
+Make interactions feel smooth
+Reinforce premium branding
+The website should feel calm, elegant, and responsive.
+
+Animation Principles
+❌ No spinning logos
+❌ No excessive bouncing
+❌ No flashy particles
+❌ No unnecessary parallax
+❌ No distracting effects
+Instead:
+✔ Smooth fades
+✔ Gentle movement
+✔ Elegant transitions
+✔ Soft hover interactions
+✔ Luxury feel
+
+Website Opening Experience
+Splash Screen
+Duration:800–1200ms
+Background:Matte Black
+Center:Srii Lakshmi Cab Logo
+Animation:
+Logo fades in
+↓
+Golden line draws underneath
+↓
+Text appears
+Premium Travel Partner Since 2005
+↓
+Fade into homepage
+This should only appear on the first visit of a session.
+
+Navigation
+Transparent over hero.
+As user scrolls:
+Background becomes matte black.
+Gold underline appears below active page.
+Smooth transition.
+No jump.
+
+Mouse Interactions (Desktop)
+Cursor remains standard for usability.
+Buttons:
+Soft scale
+Subtle glow
+Shadow elevation
+Cards:
+Lift slightly
+Image zoom (3–5%)
+Gold border animation
+
+Hero Section
+Background video:
+Very slow zoom
+Headline:
+Fade up
+Subheading:
+Fade up after 0.2 seconds
+Buttons:
+Appear one by one
+Statistics:
+Count up only when visible
+
+Fleet Cards
+When hovered:
+Image slowly zooms
+Card lifts
+Shadow increases
+Gold accent appears
+Button slides in slightly
+
+Destination Cards
+Hover:
+Image zoom
+Dark overlay
+Destination name brightens
+Explore button animates
+
+Gallery
+Images appear gradually while scrolling.
+Hover:
+Zoom
+Soft dark overlay
+"View Image" button
+Click:
+Full-screen lightbox
+Keyboard navigation
+Swipe support
+
+Testimonials
+Cards auto-slide every 6–8 seconds.
+Pause on hover.
+Smooth transitions.
+No sudden movement.
+
+FAQ
+Click:
+Answer expands smoothly.
+Arrow rotates.
+Only one item open at a time.
+
+Forms
+Input focus:
+Gold outline
+Soft shadow
+Error:
+Red border
+Success:
+Green indicator
+Submit:
+Loading spinner
+Success animation
+
+Buttons
+Primary:
+Gold background
+Hover:
+Slightly darker
+Lift 2px
+Shadow
+Secondary:
+Black
+Hover:
+Dark grey
+Outline:
+Gold border
+Background fills with gold on hover
+
+Scroll Animations
+Each section enters once.
+Sequence:
+Fade
+↓
+Move up 20px
+↓
+Settle
+Never repeat while scrolling back.
+
+Statistics
+When section becomes visible:
+20+
+Counts from 0
+No exaggerated effects.
+
+Page Transition
+Between pages:
+Quick fade
+150–250ms
+No loading flash.
+
+Breadcrumb
+Fade in.
+Current page highlighted in gold.
+
+Contact Page
+Map fades in.
+Cards stagger.
+Form appears.
+
+Request Quote
+Page opens.
+Form slides in.
+Vehicle image visible if pre-selected.
+
+Mobile Animations
+Simplified.
+Avoid heavy effects.
+Maintain 60 FPS.
+
+Loading Skeletons
+Instead of blank white screens.
+Vehicle cards.
+Gallery.
+Testimonials.
+Use skeleton placeholders.
+
+Error State
+Friendly illustration.
+Text:
+Something went wrong.
+Buttons:
+Retry
+Go Home
+
+Empty States
+If gallery empty:
+New memories are coming soon.
+
+Success State
+Large tick animation.
+Text:
+Thank you!
+Your enquiry has been received.
+We'll contact you shortly.
+Buttons:
+Call
+WhatsApp
+
+Back To Top
+Appears after scrolling 600px.
+Circular button.
+Smooth scroll to top.
+
+Floating WhatsApp
+Pulse gently every 15 seconds.
+Not continuously.
+
+Floating Call
+Static.
+Never flashing.
+
+Micro Interactions
+Logo:
+Small shine effect once on page load.
+Cards:
+Elevation.
+Icons:
+Subtle movement on hover.
+Buttons:
+Ripple disabled.
+Use premium hover instead.
+
+Premium Section Dividers
+Instead of straight lines.
+Use elegant curved transitions.
+Occasional gold accent line.
+Creates a luxury feel.
+
+Dark Sections
+Alternate:
+White
+Cream
+Black
+Never too many dark sections consecutively.
+
+Image Style
+Warm.
+Natural.
+Professional.
+Avoid oversaturation.
+
+Video Rules
+Maximum:
+15–20 seconds
+Muted
+Loop
+Optimized
+Fallback image
+
+Performance Budget
+Animations should not reduce FPS below 55 on mid-range mobile devices.
+Respect prefers-reduced-motion and disable non-essential animations for users who request reduced motion.
+
+Accessibility
+All interactions must remain usable with keyboard navigation.
+Animations must never hide essential information.
+Hover-only functionality must also be accessible via focus states.
+
+AI Coding Agent Instructions
+Use Framer Motion for component transitions and scroll reveals. Reserve GSAP only for the hero video sequence and any advanced timeline animations. Keep animation durations consistent across the site using shared timing constants to ensure a cohesive experience.
+
+⭐ Unique Brand Experience
+"Journey Begins Here"
+Instead of loading pages instantly after a user selects a destination or vehicle:
+Display a very short transition:
+Planning Your Journey...
+A thin gold progress line animates for less than a second.
+Then reveal the page.
+It's subtle, memorable, and reinforces the idea that Srii Lakshmi Cab is helping plan a journey—not just displaying information.
+
+🚀 Premium Feature (Exclusive)
+Smart Recommendation Banner
+Throughout the site, context-aware banners can appear.
+Example:
+On the Ooty page:
+Planning a family trip to Ooty?
+We recommend an SUV or Tempo Traveller for a comfortable hill journey.
+Buttons:
+🚗 View Recommended Vehicles
+📝 Plan My Journey
+On the Wedding page:
+Expecting a large guest list?
+Explore our Coach and Mini Bus options.
+These recommendations connect your destinations, services, and fleet organically, keeping visitors engaged and increasing enquiry quality.
+Premium Copywriting & Brand Content
+Version 1.0
+
+Brand Voice
+Every piece of content should sound:
+Professional
+Warm
+Trustworthy
+Confident
+Helpful
+Premium
+Honest
+Never sound salesy.
+Never use clickbait.
+Never exaggerate.
+
+Brand Tagline
+Primary
+Your Journey, Our Commitment.
+Alternatives
+Travel with Confidence.
+Every Mile, Every Moment.
+Trusted Journeys Since 2005.
+Premium Travel. Personal Care.
+
+Homepage Hero
+Main Heading
+Premium Cab & Travel Services in Coimbatore
+
+Secondary Heading
+Trusted Since 2005
+
+Description
+Whether you're travelling for business, a family vacation, an airport transfer, or a group tour, Srii Lakshmi Cab provides comfortable, reliable, and professionally managed transportation across South India. Our commitment to safety, punctuality, and customer satisfaction has made us a trusted travel partner for thousands of journeys over the years.
+
+Buttons
+🚖 Plan My Journey
+📞 Call Now
+💬 WhatsApp
+
+About Us
+Heading
+About Srii Lakshmi Cab
+
+Content
+Founded in 2005, Srii Lakshmi Cab has been providing dependable travel solutions from Coimbatore for over two decades. We believe every journey deserves comfort, safety, and professional service.
+From airport transfers and family vacations to corporate travel and group tours, we offer a diverse fleet of well-maintained vehicles driven by experienced professionals. Our focus has always been on delivering reliable transportation while building long-term relationships with our customers through honesty, punctuality, and personalized service.
+Today, Srii Lakshmi Cab proudly serves travellers across Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, and other parts of South India.
+
+Mission
+To provide safe, comfortable, and reliable transportation with exceptional customer service, ensuring every journey is memorable for the right reasons.
+
+Vision
+To become South India's most trusted premium travel partner by combining professional service, modern vehicles, and customer-first experiences.
+
+Why Choose Us
+Heading
+Why Thousands of Travellers Trust Srii Lakshmi Cab
+
+Cards
+20+ Years of Trusted Service
+Professional & Courteous Drivers
+Clean & Well-Maintained Vehicles
+Comfortable Journeys
+Available 24×7
+Flexible Travel Solutions
+Serving South India
+Customer-First Approach
+
+Fleet Introduction
+Heading
+Find the Perfect Vehicle for Every Journey
+
+Content
+Every trip is unique, and so is every vehicle in our fleet. Whether you're travelling alone, with your family, or with a large group, Srii Lakshmi Cab offers vehicles designed for comfort, convenience, and reliability. From compact hatchbacks to spacious buses, we have the right option for every travel requirement.
+
+Hatchback
+Perfect for city travel, airport transfers, and short-distance journeys, our hatchbacks offer an economical and comfortable travel experience for individuals and small families.
+
+Sedan
+Experience premium comfort with our sedan fleet, ideal for business travel, airport transfers, and family journeys where elegance and convenience matter.
+
+SUV
+Our SUVs combine spacious interiors, comfort, and performance, making them an excellent choice for family vacations, hill station trips, and long-distance travel.
+
+MUV
+Designed for families and small groups, our MUVs provide additional seating, generous luggage space, and a comfortable ride for every journey.
+
+Tempo Traveller
+Travel together without compromising comfort. Our Tempo Travellers are ideal for group tours, corporate outings, school trips, family vacations, and pilgrimage journeys across South India.
+
+Force Urbania
+Experience executive-class group travel with our premium Force Urbania fleet. Modern interiors, spacious seating, and superior comfort make it an excellent choice for weddings, corporate events, and luxury tours.
+
+Coach
+Our 21-seater coach is perfect for medium-sized groups seeking comfortable and efficient transportation for events, tours, and corporate travel.
+
+Mini Bus
+Ideal for educational institutions, corporate outings, family functions, and tour groups, our mini buses provide spacious and reliable transportation for larger groups.
+
+Bus
+For large-scale travel requirements, our buses offer safe, comfortable, and dependable transportation, making them suitable for industrial visits, educational tours, weddings, and group excursions.
+
+Services Introduction
+Every journey deserves thoughtful planning and dependable transportation. Srii Lakshmi Cab offers a wide range of travel services designed to meet personal, family, corporate, and group travel needs across South India.
+
+Airport Transfer
+Start or end your journey with confidence. We provide timely airport pickups and drop-offs, ensuring a smooth travel experience from your doorstep to the terminal and back.
+
+Corporate Travel
+Professional transportation solutions for meetings, conferences, business events, and employee travel, delivered with punctuality and reliability.
+
+Wedding Transportation
+Celebrate your special moments while we take care of the transportation. From guest transfers to group travel, we ensure every journey is comfortable and well-coordinated.
+
+Family Tours
+Create unforgettable memories with comfortable transportation for family vacations, weekend getaways, and holiday trips across South India.
+
+Temple Tours
+Travel peacefully to some of South India's most revered temples with comfortable vehicles and experienced drivers who understand pilgrimage travel requirements.
+
+Local Sightseeing
+Discover Coimbatore and nearby attractions comfortably with transportation tailored for sightseeing, leisure, and family outings.
+
+Destination Introduction
+Every destination has its own story, and every journey deserves the right travel partner. Srii Lakshmi Cab offers comfortable transportation to some of the most beautiful tourist destinations across South India, allowing you to focus on creating memories while we take care of your travel.
+
+Testimonials Section
+Heading
+What Our Customers Say
+
+Subheading
+The trust of our customers has been the driving force behind Srii Lakshmi Cab since 2005.
+
+Contact Page
+Heading
+Let's Plan Your Next Journey
+
+Content
+Whether you're planning an airport transfer, family vacation, corporate trip, or group tour, our team is here to help. Share your travel requirements with us, and we'll recommend the most suitable vehicle and travel plan for your journey.
+
+Request Quote
+Heading
+Tell Us About Your Journey
+
+Content
+Complete the form below with your travel details, and our travel advisor will contact you shortly with the most suitable travel plan for your requirements.
+
+Thank You Message
+Heading
+Thank You for Choosing Srii Lakshmi Cab
+
+Content
+We have successfully received your enquiry.
+Our travel advisor will contact you shortly to discuss your travel requirements and recommend the most suitable vehicle for your journey.
+We look forward to serving you.
+
+Footer
+Founded in 2005, Srii Lakshmi Cab has been providing reliable cab and travel services from Coimbatore for over two decades. We remain committed to delivering safe, comfortable, and customer-focused travel experiences across South India.
+
+Privacy Policy (Summary)
+We respect your privacy. Information submitted through this website is used only to respond to your travel enquiry. We do not sell, rent, or share your personal information with third parties except where required to provide our services or comply with applicable laws.
+
+Terms & Conditions (Summary)
+Travel arrangements are confirmed after direct communication with our team.
+Vehicle allocation depends on availability.
+Final trip details are discussed before confirmation.
+Customers should provide accurate travel information to help us plan the journey effectively.
+
+Microcopy
+Form placeholder:
+Enter your pickup location
+Loading:
+Planning your journey...
+Success:
+Your enquiry has been received.
+Error:
+We couldn't submit your enquiry. Please try again or contact us directly.
+Empty gallery:
+New travel memories will be added soon.
+404 page:
+Looks like this journey took a wrong turn.
+Button:
+Return Home
+
+AI Coding Agent Instructions
+All copy should be stored separately from the UI, allowing easy updates without modifying components. Ensure headings, descriptions, and calls-to-action remain consistent across the site, maintaining the same professional and welcoming tone throughout.
+
+
+
+
+MASTER AI DEVELOPMENT PROMPT
+
+PROJECT NAME
+Srii Lakshmi Cab Official Website
+
+PROJECT GOAL
+Build a world-class premium travel company website for Srii Lakshmi Cab, established in 2005, headquartered in Coimbatore.
+This is NOT an online booking application.
+This is NOT a fare calculator.
+This is NOT a payment portal.
+This website is a premium digital showroom and lead-generation platform designed to convert visitors into enquiries via Call, WhatsApp, or Request Quote.
+
+DESIGN GOAL
+The website should feel comparable to luxury hospitality and automotive brands rather than a typical local taxi website.
+Design inspiration:
+Mercedes-Benz
+Volvo
+Taj Hotels
+Emirates
+Airbnb
+Apple
+Characteristics:
+Elegant
+Minimal
+Professional
+Luxury
+Modern
+Trustworthy
+Fast
+
+BRAND
+Business
+Srii Lakshmi Cab
+Established
+2005
+Location
+Coimbatore
+
+PRIMARY COLORS
+Black
+Gold
+White
+Cream
+No bright colors.
+
+FONTS
+Headings
+Playfair Display
+Body
+Inter
+
+TECHNOLOGY
+Next.js 15
+React 19
+TypeScript
+Tailwind CSS
+Framer Motion
+GSAP
+React Hook Form
+Zod
+Leaflet
+OpenStreetMap
+SQLite
+Nodemailer
+Lucide Icons
+
+WEBSITE GOAL
+The visitor must perform one of:
+Call
+WhatsApp
+Request Quote
+Everything else supports those three actions.
+
+WEBSITE STRUCTURE
+Home
+About
+Fleet
+Services
+Destinations
+Gallery
+FAQ
+Contact
+Request Quote
+Privacy Policy
+Terms
+404
+
+FLEET
+Hatchback
+Sedan
+SUV
+MUV
+Tempo Traveller
+Force Urbania
+Coach
+Mini Bus
+Bus
+Each gets:
+Dedicated page
+SEO
+Gallery
+Enquiry
+FAQs
+Related destinations
+
+SERVICES
+Airport
+Outstation
+Corporate
+Wedding
+Temple
+Family
+Employee
+Industrial
+School
+Local Sightseeing
+Each gets dedicated page.
+
+DESTINATIONS
+Create pages for major South Indian destinations served from Coimbatore, including:
+Ooty
+Coonoor
+Kotagiri
+Valparai
+Kodaikanal
+Munnar
+Mysore
+Bangalore
+Chennai
+Coorg
+Wayanad
+Palani
+Madurai
+Rameswaram
+Isha Foundation
+Marudhamalai
+Black Thunder
+Topslip
+Each page should include destination information, recommended vehicles, FAQs, and enquiry CTA.
+
+SEO
+Every page must include:
+Title
+Description
+Canonical URL
+OpenGraph
+Twitter Cards
+Schema.org
+Breadcrumb
+Internal Links
+FAQ Schema
+Image alt text
+
+PERFORMANCE
+Google Lighthouse
+Performance >95
+SEO >95
+Accessibility >95
+Best Practices >95
+
+COMPONENTS
+Navbar
+Footer
+Hero
+Fleet Card
+Destination Card
+Service Card
+Statistics
+Testimonials
+Gallery
+FAQ
+CTA
+Contact Form
+WhatsApp Button
+Call Button
+Back To Top
+Breadcrumb
+Loading Screen
+Reusable throughout the application.
+
+CONTACT FORM
+Fields
+Name
+Phone
+Pickup
+Destination
+Date
+Vehicle
+Passengers
+Message
+Submit
+↓
+Store
+↓
+Email Gmail
+↓
+Success Screen
+
+CONTACT INFORMATION
+Phone
+9443914314
+8012781549
+8148251567
+Email
+cabsriilakshmi@gmail.com
+Address
+5/12 A
+5th Street East
+Nanjappa Nagar
+Singanallur
+Coimbatore
+641005
+Business Hours
+24×7
+Instagram
+Use provided account.
+
+DESIGN REQUIREMENTS
+Luxury
+Large Images
+Rounded Cards
+Smooth Animations
+Glass Effects (subtle)
+Hero Video
+Elegant Typography
+White Space
+Minimal UI
+
+MOBILE
+Sticky Call
+Sticky WhatsApp
+Sticky Request Quote
+Fast
+Responsive
+Thumb Friendly
+
+ANIMATIONS
+Framer Motion
+GSAP
+Fade
+Slide
+Lift
+Count
+Hover
+No flashy animations.
+
+DATABASE
+SQLite
+Table
+enquiries
+Store:
+Name
+Phone
+Pickup
+Destination
+Date
+Vehicle
+Passengers
+Trip Type
+Message
+Created At
+
+EMAIL
+Use Nodemailer
+Use Gmail SMTP
+
+MAPS
+Leaflet
+OpenStreetMap
+
+IMAGES
+Use royalty-free placeholder images initially.
+Structure assets so they can easily be replaced with Srii Lakshmi Cab's real fleet photos later.
+
+ACCESSIBILITY
+WCAG AA
+Keyboard navigation
+Focus states
+Screen reader friendly
+Reduced motion support
+
+SECURITY
+Helmet
+Validation
+Sanitization
+Rate limiting
+Environment variables
+
+CODE QUALITY
+Strict TypeScript
+No duplicated code
+Reusable components
+Reusable hooks
+Reusable layouts
+Reusable SEO
+Modular architecture
+
+BUILD ORDER
+Phase 1
+Foundation
+Routing
+Theme
+Navigation
+Footer
+SEO
+
+Phase 2
+Homepage
+Animations
+Fleet
+Services
+
+Phase 3
+Destination Pages
+Gallery
+Testimonials
+FAQ
+
+Phase 4
+Backend
+Forms
+Database
+Email
+
+Phase 5
+Optimization
+Accessibility
+SEO
+Testing
+Deployment
+
+IMPORTANT
+Do NOT generate placeholder lorem ipsum.
+Write meaningful content.
+Use professional copywriting.
+Keep content editable through data files.
+
+FINAL DELIVERABLE
+A production-ready, scalable, SEO-optimized website that positions Srii Lakshmi Cab as a premium travel brand in Coimbatore and encourages visitors to contact the business for personalized travel planning.
+
+My Final Recommendations (These Will Make Your Website Truly Stand Out)
+After everything we've planned, here are the features I'd add beyond what most travel websites offer:
+1. Dynamic Hero Based on Time
+Morning: sunrise and fresh travel imagery.
+Evening: warm city lights.
+Night: premium night-drive visuals.
+Greeting changes automatically ("Good Morning", "Good Evening").
+2. Live Fleet Availability Indicator
+Not actual booking availability, just a status like:
+🟢 Available for Enquiries
+🟡 High DemandThis creates urgency without showing prices or requiring inventory management.
+3. Interactive South India Route Map
+Instead of listing destinations, show a beautiful map with clickable routes from Coimbatore.
+4. "Plan My Journey" Instead of "Book Now"
+Make this your signature branding across the site.
+5. "Why This Vehicle?" Recommendations
+Every destination page should explain why a specific vehicle is best for that journey.
+6. Real Fleet Photos
+This is the single biggest improvement you can make after launch. Authentic photos consistently outperform stock images for trust.
+7. Google Business Integration
+Embed your Google Business reviews (or selected reviews) once you have them. Real reviews are a major trust signal.
+8. WhatsApp-Centric Experience
+Instead of forcing users through forms, make WhatsApp a first-class communication channel with pre-filled messages based on the page they're viewing.
+

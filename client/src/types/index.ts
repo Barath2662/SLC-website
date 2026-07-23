@@ -3,14 +3,16 @@ export interface VehicleCategory {
   name: string;
   slug: string;
   tagline: string;
-  passengerCapacity: string;
+  passengerCapacity: string | number;
   luggageCapacity: string;
-  idealFor: string[];
+  idealUseCases: string[];
+  idealTravelExperiences?: string[];
+  idealFor?: string[];
   features: string[];
-  heroImage: string;
+  imageUrl: string;
+  heroImage?: string;
   overview: string;
-  highlights: string[];
-  faqs: FAQItem[];
+  faqs?: FAQItem[];
 }
 
 export interface ServiceItem {
@@ -18,29 +20,32 @@ export interface ServiceItem {
   title: string;
   slug: string;
   subtitle: string;
-  icon: string;
   shortDescription: string;
   fullDescription: string;
-  keyBenefits: string[];
+  tagline?: string;
+  iconName?: string;
+  icon?: string;
+  imageUrl: string;
   recommendedVehicles: string[];
-  faqs: FAQItem[];
+  keyBenefits: string[];
+  faqs?: FAQItem[];
 }
 
 export interface DestinationItem {
   id: string;
   name: string;
   slug: string;
-  tagline: string;
   category: 'Hill Station' | 'Pilgrimage' | 'City / Outstation' | 'Leisure & Theme Park';
   distanceFromCoimbatore: string;
   travelTime: string;
   bestTimeToVisit: string;
+  heroImage: string;
+  tagline: string;
   overview: string;
   attractions: string[];
   travelTips: string[];
   recommendedVehicles: string[];
-  faqs: FAQItem[];
-  heroImage: string;
+  faqs?: FAQItem[];
 }
 
 export interface FAQItem {
@@ -53,9 +58,11 @@ export interface TestimonialItem {
   name: string;
   location: string;
   rating: number;
-  comment: string;
   tripType: string;
-  date?: string;
+  review?: string;
+  comment?: string;
+  date: string;
+  verified?: boolean;
 }
 
 export interface EnquiryFormData {
@@ -73,7 +80,6 @@ export interface EnquiryFormData {
 export interface SEOMetadata {
   title: string;
   description: string;
+  keywords: string[];
   canonicalUrl?: string;
-  ogImage?: string;
-  keywords?: string[];
 }

@@ -1,41 +1,129 @@
-# Node / NPM
+# ==========================================
+# Production-Ready .gitignore
+# Stack: Next.js 15, React 19, TypeScript, Tailwind CSS, SQLite, Nodemailer
+# ==========================================
+
+# ------------------------------------------
+# 1. Node.js Dependencies
+# ------------------------------------------
 node_modules/
+/node_modules
+client/node_modules/
+server/node_modules/
+
+# ------------------------------------------
+# 2. Next.js & Framework Build Output
+# ------------------------------------------
+.next/
+/out/
+/.next/
+
+# ------------------------------------------
+# 3. Production Build Folders
+# ------------------------------------------
+dist/
+/dist/
+build/
+/build/
+client/dist/
+server/dist/
+
+# ------------------------------------------
+# 4. Environment Variables & Secrets
+# ------------------------------------------
+.env
+.env.*
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+!.env.example
+!client/.env.example
+!server/.env.example
+
+# ------------------------------------------
+# 5. Application & Package Manager Logs
+# ------------------------------------------
+*.log
+logs
+*.log*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-# Build outputs
-dist/
-build/
-*.tsbuildinfo
-
-# Environment variables & secrets
-.env
-.env.local
-.env.*.local
-*.env
-
-# SQLite Database
+# ------------------------------------------
+# 6. SQLite Databases (Development / Local)
+# ------------------------------------------
 *.db
 *.sqlite
 *.sqlite3
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+sqlite/
 
-# Logs
-logs/
-*.log
+# ------------------------------------------
+# 7. Uploaded & Temporary Files
+# ------------------------------------------
+uploads/
+tmp/
+temp/
+/uploads
+/tmp
+/temp
 
-# Editor & OS files
-.DS_Store
-Thumbs.db
+# ------------------------------------------
+# 8. Caches & Build Tooling
+# ------------------------------------------
+.cache/
+.turbo/
+.parcel-cache/
+.eslintcache
+.tsbuildinfo
+
+# ------------------------------------------
+# 9. IDE & Code Editor Artifacts
+# ------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
 .idea/
-.vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
 
-# Temporary / Extracted local files
-SRS_extracted.txt
+# ------------------------------------------
+# 10. Operating System Files
+# ------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ------------------------------------------
+# 11. Code Coverage & Testing Artifacts
+# ------------------------------------------
+coverage/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+
+# ------------------------------------------
+# 12. Deployment & Hosting (Vercel)
+# ------------------------------------------
+.vercel/
+
+# ------------------------------------------
+# 13. Package Manager Caches
+# ------------------------------------------
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml

@@ -3,11 +3,16 @@ import { Outlet } from 'react-router-dom';
 import { Navbar } from './Navbar';
 import { Footer } from './Footer';
 import { FloatingCTA } from './FloatingCTA';
+import { SplashScreen } from '@/components/common/SplashScreen';
+import { ContactModal } from '@/components/common/ContactModal';
 import { SchemaOrg } from '@/seo/SchemaOrg';
 
 export const MainLayout: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-dark-bg text-slate-100 font-sans antialiased selection:bg-gold-500 selection:text-black">
+    <div className="min-h-screen flex flex-col bg-dark-bg text-slate-100 font-sans antialiased selection:bg-gold-500 selection:text-black transition-colors duration-300">
+      {/* Session Splash Screen */}
+      <SplashScreen />
+
       {/* Schema.org LocalBusiness structured data */}
       <SchemaOrg />
 
@@ -21,6 +26,9 @@ export const MainLayout: React.FC = () => {
 
       {/* Floating Action CTA Buttons */}
       <FloatingCTA />
+
+      {/* Global Call & WhatsApp Selection Modal */}
+      <ContactModal />
 
       {/* Global Footer */}
       <Footer />

@@ -14,22 +14,24 @@
   --color-dark-card: #16181d;
   --color-dark-surface: #1e2027;
   --color-dark-border: rgba(212, 175, 55, 0.15);
-
-  --color-cream-bg: #fbf9f5;
-  --color-cream-card: #ffffff;
-  --color-light-grey: #f4f4f6;
 }
 
 @layer base {
   body {
-    background-color: var(--color-dark-bg);
-    color: #f1f5f9;
+    background-color: #0e0f12;
+    color: #f8fafc;
     font-family: var(--font-sans);
     overflow-x: hidden;
   }
 
   h1, h2, h3, h4, .font-heading {
     font-family: var(--font-serif);
+  }
+
+  /* Accessible Focus Ring */
+  :focus-visible {
+    outline: 2px solid #d4af37;
+    outline-offset: 2px;
   }
 }
 
@@ -50,6 +52,16 @@
 
 .gold-border-glow:hover {
   box-shadow: 0 0 25px rgba(212, 175, 55, 0.35);
+}
+
+/* Reduced Motion Support for Accessibility (WCAG 2.1 AA) */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 /* Scrollbar Customization */

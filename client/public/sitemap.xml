@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Main Pages -->
+  <url>
+    <loc>https://sriilakshmicab.com/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://sriilakshmicab.com/about</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sriilakshmicab.com/fleet</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sriilakshmicab.com/services</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sriilakshmicab.com/destinations</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sriilakshmicab.com/gallery</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sriilakshmicab.com/faq</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sriilakshmicab.com/contact</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sriilakshmicab.com/request-quote</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Fleet Category Pages -->
+  <url><loc>https://sriilakshmicab.com/fleet/hatchback</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/fleet/sedan</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/fleet/suv</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/fleet/mvp</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/fleet/tempo-traveller</loc><priority>0.9</priority></url>
+  <url><loc>https://sriilakshmicab.com/fleet/force-urbania</loc><priority>0.9</priority></url>
+  <url><loc>https://sriilakshmicab.com/fleet/coach</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/fleet/mini-bus</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/fleet/bus</loc><priority>0.8</priority></url>
+
+  <!-- Service Detail Pages -->
+  <url><loc>https://sriilakshmicab.com/services/airport-transfer</loc><priority>0.9</priority></url>
+  <url><loc>https://sriilakshmicab.com/services/outstation-taxi</loc><priority>0.9</priority></url>
+  <url><loc>https://sriilakshmicab.com/services/corporate-travel</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/services/wedding-transportation</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/services/temple-tours</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/services/family-tours</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/services/employee-transport</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/services/industrial-visits</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/services/school-college-trips</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/services/local-sightseeing</loc><priority>0.8</priority></url>
+
+  <!-- Destination Detail Pages -->
+  <url><loc>https://sriilakshmicab.com/destinations/ooty</loc><priority>0.9</priority></url>
+  <url><loc>https://sriilakshmicab.com/destinations/coonoor</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/destinations/kotagiri</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/destinations/valparai</loc><priority>0.9</priority></url>
+  <url><loc>https://sriilakshmicab.com/destinations/munnar</loc><priority>0.9</priority></url>
+  <url><loc>https://sriilakshmicab.com/destinations/kodaikanal</loc><priority>0.9</priority></url>
+  <url><loc>https://sriilakshmicab.com/destinations/mysore</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/destinations/isha-foundation</loc><priority>0.9</priority></url>
+  <url><loc>https://sriilakshmicab.com/destinations/marudhamalai</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/destinations/black-thunder</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/destinations/palani</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/destinations/madurai</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/destinations/rameswaram</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/destinations/topslip</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/destinations/wayanad</loc><priority>0.8</priority></url>
+  <url><loc>https://sriilakshmicab.com/destinations/coorg</loc><priority>0.8</priority></url>
+</urlset>
