@@ -21,11 +21,11 @@ export const MetaHead: React.FC<MetaHeadProps> = ({
 }) => {
   const pageTitle = title
     ? `${title} | ${BRAND_DETAILS.name}`
-    : `${BRAND_DETAILS.name} | Premium Cab & Taxi Service in Coimbatore Since 2005`;
+    : `${BRAND_DETAILS.name} | Premium Cab & Taxi Service in Coimbatore Since 2007`;
 
   const pageDescription =
     description ||
-    'Srii Lakshmi Cab offers premium cab services, airport transfers, outstation taxis, tempo travellers, Urbania, coaches, mini buses, and buses in Coimbatore. Trusted since 2005.';
+    'Srii Lakshmi Cab offers premium cab services, airport transfers, outstation taxis, tempo travellers, Urbania, coaches, mini buses, and buses in Coimbatore. Trusted since 2007.';
 
   const currentUrl = canonicalUrl || (typeof window !== 'undefined' ? window.location.href : BRAND_DETAILS.siteUrl);
 

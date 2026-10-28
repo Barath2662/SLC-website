@@ -82,7 +82,7 @@ export const RequestQuotePage: React.FC = () => {
                 <div className="flex items-start space-x-3">
                   <Award className="w-4 h-4 text-gold-500 shrink-0 mt-0.5" />
                   <div>
-                    <span className="font-semibold text-white block">20+ Years Trusted Brand</span>
+                    <span className="font-semibold text-white block">18+ Years Trusted Brand</span>
                     <span className="text-slate-400">Punctual drivers & sanitized clean vehicles.</span>
                   </div>
                 </div>

@@ -2,6 +2,7 @@ import { VehicleCategory } from '@/types';
 
 export interface VehicleCategoryExtended extends VehicleCategory {
   idealTravelExperiences: string[];
+  models?: string[];
 }
 
 export const FLEET_DATA: VehicleCategoryExtended[] = [
@@ -12,6 +13,7 @@ export const FLEET_DATA: VehicleCategoryExtended[] = [
     tagline: 'Compact, Economical & Agile for City Journeys',
     passengerCapacity: 4,
     luggageCapacity: '2 Small Bags',
+    models: ['Maruti WagonR'],
     idealUseCases: [
       'Local Coimbatore Sightseeing',
       'Short Outstation Trips',
@@ -32,16 +34,20 @@ export const FLEET_DATA: VehicleCategoryExtended[] = [
       'Bluetooth audio system',
       'Ample legroom for 4 passengers'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=1200&auto=format&fit=crop',
-    overview: 'Ideal for small families and solo travellers seeking quick, budget-conscious transportation within Coimbatore or short outstation runs. Easy maneuverability makes city sightseeing effortless.',
+    imageUrl: 'https://images.unsplash.com/photo-1626668011687-e9ca714c9c27?q=80&w=1200&auto=format&fit=crop',
+    overview: 'Ideal for small families and solo travellers seeking quick, budget-conscious transportation within Coimbatore or short outstation runs. Our Maruti WagonR fleet offers easy maneuverability making city sightseeing effortless.',
     faqs: [
+      {
+        question: 'Which Hatchback models are available?',
+        answer: 'We operate Maruti WagonR in our hatchback fleet — spacious, fuel-efficient and great for city and short outstation trips.'
+      },
       {
         question: 'How many passengers fit comfortably in a Hatchback?',
         answer: 'Up to 4 passengers plus driver. Recommended for 3 adults or 2 adults + 2 children with small luggage.'
       },
       {
         question: 'Is a Hatchback suitable for Ooty hill trips?',
-        answer: 'Yes, for small families with light luggage, our Hatchbacks easily handle Mettupalayam ghat road inclines.'
+        answer: 'Yes, for small families with light luggage, our WagonR easily handles Mettupalayam ghat road inclines.'
       }
     ]
   },
@@ -52,6 +58,7 @@ export const FLEET_DATA: VehicleCategoryExtended[] = [
     tagline: 'Executive Comfort & Smooth Highway Cruising',
     passengerCapacity: 4,
     luggageCapacity: '2 Large + 2 Small Suitcases',
+    models: ['Toyota Etios', 'Maruti Swift Dzire', 'Honda Amaze'],
     idealUseCases: [
       'Coimbatore Airport Transfers',
       'Corporate & Executive Travel',
@@ -72,9 +79,13 @@ export const FLEET_DATA: VehicleCategoryExtended[] = [
       'USB phone charging ports',
       'Uniformed commercial driver'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=1200&auto=format&fit=crop',
-    overview: 'Our executive Sedans (Swift Dzire, Etios) offer smooth highway stability, high boot space capacity, and executive polish. Perfect for airport drops, corporate delegation, and outstation trips.',
+    imageUrl: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?q=80&w=1200&auto=format&fit=crop',
+    overview: 'Our executive Sedans — Toyota Etios, Maruti Swift Dzire, and Honda Amaze — offer smooth highway stability, high boot space, and executive polish. Perfect for airport drops, corporate delegation, and outstation trips.',
     faqs: [
+      {
+        question: 'Which Sedan models are available?',
+        answer: 'We operate Toyota Etios, Maruti Swift Dzire, and Honda Amaze — all reliable, spacious sedans for executive and family travel.'
+      },
       {
         question: 'How much luggage can a Sedan carry?',
         answer: 'Our Sedans feature deep boot space easily accommodating 2 large suitcases and 2 handbag carry-ons.'
@@ -92,6 +103,7 @@ export const FLEET_DATA: VehicleCategoryExtended[] = [
     tagline: 'Powerful Performance & Superior Hill Station Comfort',
     passengerCapacity: 7,
     luggageCapacity: '3 Large + 2 Medium Bags',
+    models: ['Maruti Ertiga', 'Kia Carens', 'Toyota Innova'],
     idealUseCases: [
       'Ooty & Valparai Hill Station Trips',
       'Family Vacations & Long Road Trips',
@@ -112,9 +124,13 @@ export const FLEET_DATA: VehicleCategoryExtended[] = [
       'Powerful diesel engine for steep inclines',
       'Senior driver with 10+ yrs hill experience'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=1200&auto=format&fit=crop',
-    overview: 'Conquer Nilgiri hairpins and Anamalai tea garden slopes in comfort. Our SUVs (Innova, Innova Crysta) deliver high torque, high ground clearance, and spacious seating for family vacations.',
+    imageUrl: 'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=1200&auto=format&fit=crop',
+    overview: 'Conquer Nilgiri hairpins and Anamalai tea garden slopes in comfort. Our SUV fleet — Maruti Ertiga, Kia Carens, and Toyota Innova — delivers high torque, high ground clearance, and spacious seating for family vacations.',
     faqs: [
+      {
+        question: 'Which SUV models are available?',
+        answer: 'We operate Maruti Ertiga, Kia Carens, and Toyota Innova — all suited for hill station routes and family road trips.'
+      },
       {
         question: 'Why choose an SUV for Ooty or Kodaikanal trips?',
         answer: 'SUVs provide superior engine power, stable hill cornering, higher seating visibility, and dedicated rear AC vents.'
@@ -132,6 +148,7 @@ export const FLEET_DATA: VehicleCategoryExtended[] = [
     tagline: 'Multi-Purpose Vehicle for Extended Family Travel & Temple Visits',
     passengerCapacity: 7,
     luggageCapacity: '3 Large Bags',
+    models: ['Toyota Innova Crysta'],
     idealUseCases: [
       'Family Temple Tours (Palani, Rameswaram, Madurai)',
       'Multi-Day South India Vacations',
@@ -152,12 +169,16 @@ export const FLEET_DATA: VehicleCategoryExtended[] = [
       'Rear AC controls for every row',
       'All-India tourist permit'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=1200&auto=format&fit=crop',
-    overview: 'MVPs offer the ideal combination of passenger seating and smooth ride quality. Whether taking senior citizens on temple tours to Palani and Rameswaram or heading out for a multi-day tour, our MVPs provide total peace of mind.',
+    imageUrl: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=1200&auto=format&fit=crop',
+    overview: 'The Toyota Innova Crysta offers the ideal combination of premium seating and smooth ride quality. Whether taking senior citizens on temple tours to Palani and Rameswaram or heading out for a multi-day tour, our Innova Crysta provides total peace of mind.',
     faqs: [
       {
+        question: 'Which MVP model is available?',
+        answer: 'We exclusively operate the Toyota Innova Crysta — the most preferred premium MPV in South India for comfort travel.'
+      },
+      {
         question: 'Is MVP suitable for temple tours with senior citizens?',
-        answer: 'Yes, MVPs offer easy entry and exit, comfortable seating posture, and soft suspension ideal for elderly family members.'
+        answer: 'Yes, the Innova Crysta offers easy entry and exit, comfortable seating posture, and soft suspension ideal for elderly family members.'
       }
     ]
   },
@@ -166,8 +187,9 @@ export const FLEET_DATA: VehicleCategoryExtended[] = [
     name: 'Tempo Traveller',
     slug: 'tempo-traveller',
     tagline: 'Spacious Group Travel with Executive Pushback Recliners',
-    passengerCapacity: 15,
+    passengerCapacity: 20,
     luggageCapacity: 'Separate Rear Luggage Boot (8-10 Bags)',
+    models: ['12 Seater Tempo Traveller', '16 Seater Tempo Traveller', '20 Seater Tempo Traveller'],
     idealUseCases: [
       'Large Family Outstation Trips',
       'Group Pilgrimage Tours',
@@ -181,19 +203,19 @@ export const FLEET_DATA: VehicleCategoryExtended[] = [
       'School & College'
     ],
     features: [
-      '12 / 14 / 15 / 18 / 20 Seater configurations',
+      '12 / 16 / 20 Seater configurations',
       '2x1 luxury pushback leather recliners',
       'High roof ceiling allowing walk-through standing',
       'Individual AC ducts & reading lights',
       'LED TV with Surround Audio system',
       'Dedicated rear luggage compartment'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=1200&auto=format&fit=crop',
-    overview: 'Move your entire group together without splitting into multiple cabs. Featuring high standing headroom, pushback seats, and entertainment systems, Tempo Travellers make long outstation group travel memorable.',
+    imageUrl: 'https://images.unsplash.com/photo-1570125909517-53cb21c89ff2?q=80&w=1200&auto=format&fit=crop',
+    overview: 'Move your entire group together without splitting into multiple cabs. Available in 12-seater, 16-seater, and 20-seater configurations. Featuring high standing headroom, pushback seats, and entertainment systems, Tempo Travellers make long outstation group travel memorable.',
     faqs: [
       {
         question: 'What Tempo Traveller seat configurations are available?',
-        answer: 'We offer 12-seater, 14-seater, 15-seater, 18-seater, and 20-seater Tempo Travellers.'
+        answer: 'We offer 12-seater, 16-seater, and 20-seater Tempo Travellers to match your group size perfectly.'
       },
       {
         question: 'Can Tempo Travellers travel to Munnar and Kodaikanal?',
@@ -208,6 +230,7 @@ export const FLEET_DATA: VehicleCategoryExtended[] = [
     tagline: 'Ultra-Luxury VIP Van with European Design & Monocoque Comfort',
     passengerCapacity: 17,
     luggageCapacity: 'Dedicated Deep Rear Luggage Bay',
+    models: ['Force Urbania 12 Seater', 'Force Urbania 17 Seater'],
     idealUseCases: [
       'VIP Executive Corporate Delegation',
       'Luxury Wedding Guest Transportation',
@@ -229,8 +252,12 @@ export const FLEET_DATA: VehicleCategoryExtended[] = [
       'Advanced ABS, EBD & airbag safety systems'
     ],
     imageUrl: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1200&auto=format&fit=crop',
-    overview: 'Redefining group travel elegance. Force Urbania combines airline-first-class seating, panoramic sight-seeing glass, and monocoque road stability. Perfect for corporate leadership delegations and luxury wedding transportation.',
+    overview: 'Redefining group travel elegance. Force Urbania available in 12-seater and 17-seater configurations combines airline-first-class seating, panoramic sight-seeing glass, and monocoque road stability. Perfect for corporate leadership delegations and luxury wedding transportation.',
     faqs: [
+      {
+        question: 'What are the available Urbania configurations?',
+        answer: 'We offer Force Urbania in 12-seater and 17-seater variants to suit your group size and occasion.'
+      },
       {
         question: 'How is Force Urbania different from a standard Tempo Traveller?',
         answer: 'Urbania features monocoque construction, air-suspension comfort, lower noise levels, individual AC control, and luxury bucket seating.'
@@ -264,7 +291,7 @@ export const FLEET_DATA: VehicleCategoryExtended[] = [
       'PA System for tour guides and speech',
       'Commercial highway permit'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1200&auto=format&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=1200&auto=format&fit=crop',
     overview: 'Mid-sized executive coaches bridging the gap between Tempo Travellers and large buses. Ideal for corporate delegations, wedding shuttles, and educational group tours.',
     faqs: [
       {
@@ -300,7 +327,7 @@ export const FLEET_DATA: VehicleCategoryExtended[] = [
       'Under-floor luggage storage bay',
       'Senior commercial driver & cleaner'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1200&auto=format&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1464219789935-c2d9d9aba644?q=80&w=1200&auto=format&fit=crop',
     overview: 'Designed for efficient medium-group logistics. Widely chosen by Coimbatore educational institutions for industrial visits and corporations for event shuttles.',
     faqs: [
       {

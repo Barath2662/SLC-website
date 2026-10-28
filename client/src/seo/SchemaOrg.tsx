@@ -51,7 +51,7 @@ export const SchemaOrg: React.FC<SchemaOrgProps> = ({
       url: BRAND_DETAILS.siteUrl,
       logo: `${BRAND_DETAILS.siteUrl}/favicon.svg`,
       description:
-        'Premium cab services, airport transfers, outstation taxis, tempo travellers, Urbania, and bus rentals in Coimbatore since 2005.',
+        'Premium cab services, airport transfers, outstation taxis, tempo travellers, Urbania, and bus rentals in Coimbatore since 2007.',
       telephone: BRAND_DETAILS.phones[0].display,
       email: BRAND_DETAILS.email,
       address: {
@@ -94,7 +94,7 @@ export const SchemaOrg: React.FC<SchemaOrgProps> = ({
         'Karnataka',
         'South India',
       ],
-      foundingDate: '2005',
+      foundingDate: '2007',
       ...data,
     };
   }

@@ -30,22 +30,22 @@ export const MobileMenuDrawer: React.FC<MobileMenuDrawerProps> = ({
       />
 
       {/* Drawer Panel */}
-      <div className="fixed inset-y-0 right-0 w-full max-w-xs bg-dark-bg border-l border-slate-800 shadow-2xl p-6 flex flex-col justify-between animate-in slide-in-from-right duration-300">
+      <div className="fixed inset-y-0 right-0 w-full max-w-xs bg-[#FCFCFA] border-l border-[#E7E5E4] shadow-2xl p-6 flex flex-col justify-between animate-in slide-in-from-right duration-300">
         <div>
           {/* Header */}
-          <div className="flex items-center justify-between pb-6 border-b border-slate-800">
+          <div className="flex items-center justify-between pb-6 border-b border-[#E7E5E4]">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 rounded-lg gold-gradient-bg flex items-center justify-center font-serif font-extrabold text-black text-sm">
                 {BRAND_DETAILS.shortName}
               </div>
-              <span className="font-serif font-bold text-white text-base">
+              <span className="font-serif font-bold text-[#111111] text-base">
                 {BRAND_DETAILS.name}
               </span>
             </div>
 
             <button
               onClick={onClose}
-              className="p-2 rounded-full bg-dark-card text-slate-400 hover:text-white"
+              className="p-2 rounded-full bg-white border border-[#E7E5E4] text-slate-500 hover:text-[#111111]"
             >
               <X className="w-5 h-5" />
             </button>
@@ -62,8 +62,8 @@ export const MobileMenuDrawer: React.FC<MobileMenuDrawerProps> = ({
                   onClick={onClose}
                   className={`flex items-center justify-between px-4 py-3 rounded-xl text-xs font-semibold uppercase tracking-wider transition-all ${
                     isActive
-                      ? 'gold-gradient-bg text-black font-bold shadow-md'
-                      : 'text-slate-200 hover:bg-dark-card hover:text-gold-400'
+                      ? 'bg-[#C8A44D] text-white font-bold shadow-md'
+                      : 'text-[#111111] hover:bg-[#F8F6F1] hover:text-[#C8A44D]'
                   }`}
                 >
                   <span>{link.label}</span>
@@ -75,7 +75,7 @@ export const MobileMenuDrawer: React.FC<MobileMenuDrawerProps> = ({
         </div>
 
         {/* Bottom Contact Actions */}
-        <div className="pt-6 border-t border-slate-800 space-y-3">
+        <div className="pt-6 border-t border-[#E7E5E4] space-y-3">
           <Button
             variant="primary"
             size="md"
@@ -97,12 +97,12 @@ export const MobileMenuDrawer: React.FC<MobileMenuDrawerProps> = ({
               onClose();
               openWhatsAppModal();
             }}
-            leftIcon={<MessageSquare className="w-4 h-4 text-emerald-400" />}
+            leftIcon={<MessageSquare className="w-4 h-4 text-emerald-600" />}
           >
             WhatsApp Chat
           </Button>
 
-          <p className="text-[10px] text-center text-slate-400 uppercase tracking-widest pt-2">
+          <p className="text-[10px] text-center text-slate-500 uppercase tracking-widest pt-2">
             24×7 Available • Coimbatore
           </p>
         </div>

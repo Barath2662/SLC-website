@@ -31,8 +31,8 @@ export const HomePage: React.FC = () => {
   return (
     <>
       <MetaHead
-        title="Premium Cab & Taxi Service in Coimbatore Since 2005"
-        description="Srii Lakshmi Cab offers premium cab services, airport transfers, outstation taxis, tempo travellers, Urbania, coaches, mini buses, and buses in Coimbatore. Trusted since 2005."
+        title="Premium Cab & Taxi Service in Coimbatore Since 2007"
+        description="Srii Lakshmi Cab offers premium cab services, airport transfers, outstation taxis, tempo travellers, Urbania, coaches, mini buses, and buses in Coimbatore. Trusted since 2007."
       />
       <SchemaOrg schemaType="LocalBusiness" />
 
@@ -135,7 +135,7 @@ export const HomePage: React.FC = () => {
           <SectionHeading
             badge="Customer Reviews"
             title="What Our Passengers Say"
-            subtitle="The trust of our customers has been the driving force behind Srii Lakshmi Cab since 2005."
+            subtitle="The trust of our customers has been the driving force behind Srii Lakshmi Cab since 2007."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

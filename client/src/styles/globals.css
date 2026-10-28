@@ -5,21 +5,31 @@
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 
   --color-gold-300: #f3e8c4;
-  --color-gold-400: #e5ca68;
-  --color-gold-500: #d4af37;
-  --color-gold-600: #b89628;
+  --color-gold-400: #d4af37;
+  --color-gold-500: #c8a44d;
+  --color-gold-600: #b8932e;
   --color-gold-700: #92741d;
 
-  --color-dark-bg: #0e0f12;
-  --color-dark-card: #16181d;
-  --color-dark-surface: #1e2027;
-  --color-dark-border: rgba(212, 175, 55, 0.15);
+  /* Theme tokens mapping to luxury light palette */
+  --color-dark-bg: #fcfcfa;
+  --color-dark-card: #ffffff;
+  --color-dark-surface: #f8f6f1;
+  --color-dark-border: #e7e5e4;
+
+  --color-light-bg: #fcfcfa;
+  --color-light-bg-secondary: #f8f6f1;
+  --color-light-card: #ffffff;
+  --color-light-section-alt: #f4f1ea;
+  --color-light-border: #e7e5e4;
+  --color-light-text-primary: #111111;
+  --color-light-text-secondary: #4b5563;
+  --color-light-text-muted: #6b7280;
 }
 
 @layer base {
   body {
-    background-color: #0e0f12;
-    color: #f8fafc;
+    background-color: #fcfcfa;
+    color: #111111;
     font-family: var(--font-sans);
     overflow-x: hidden;
   }
@@ -30,28 +40,28 @@
 
   /* Accessible Focus Ring */
   :focus-visible {
-    outline: 2px solid #d4af37;
+    outline: 2px solid #c8a44d;
     outline-offset: 2px;
   }
 }
 
 /* Custom Gold Gradient & Glow Effects */
 .gold-gradient-text {
-  background: linear-gradient(135deg, #FFF0BD 0%, #D4AF37 50%, #92741D 100%);
+  background: linear-gradient(135deg, #b8932e 0%, #c8a44d 50%, #92741d 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gold-gradient-bg {
-  background: linear-gradient(135deg, #E5CA68 0%, #D4AF37 50%, #B89628 100%);
+  background: linear-gradient(135deg, #e5ca68 0%, #c8a44d 50%, #b8932e 100%);
 }
 
 .gold-border-glow {
-  box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+  box-shadow: 0 4px 20px rgba(200, 164, 77, 0.15);
 }
 
 .gold-border-glow:hover {
-  box-shadow: 0 0 25px rgba(212, 175, 55, 0.35);
+  box-shadow: 0 6px 25px rgba(200, 164, 77, 0.25);
 }
 
 /* Reduced Motion Support for Accessibility (WCAG 2.1 AA) */
@@ -69,12 +79,13 @@
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #0e0f12;
+  background: #fcfcfa;
 }
 ::-webkit-scrollbar-thumb {
-  background: #2a2d36;
+  background: #d6d3d1;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #d4af37;
+  background: #c8a44d;
 }
+

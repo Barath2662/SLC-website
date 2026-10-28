@@ -2,8 +2,8 @@ export const BRAND_DETAILS = {
   name: 'Srii Lakshmi Cab',
   shortName: 'SLC',
   tagline: 'Your Journey, Our Commitment.',
-  establishedYear: 2005,
-  experienceYears: '20+',
+  establishedYear: 2007,
+  experienceYears: '18+',
   businessHours: '24 × 7 Available',
   primaryLocation: 'Coimbatore, Tamil Nadu',
   

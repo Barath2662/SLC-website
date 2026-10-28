@@ -31,13 +31,13 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 
     const variants = {
       primary:
-        'gold-gradient-bg text-black shadow-lg hover:brightness-110 hover:shadow-gold-500/20 font-bold',
+        'bg-[#C8A44D] text-white shadow-lg hover:bg-[#B8932E] hover:shadow-gold-500/20 font-bold',
       secondary:
-        'bg-dark-card border border-slate-700/80 text-white hover:border-gold-500/50 hover:bg-dark-surface shadow-md',
+        'bg-[#111111] text-white hover:bg-[#1F2937] shadow-md font-semibold',
       outline:
-        'bg-transparent border-2 border-gold-500 text-gold-400 hover:bg-gold-500 hover:text-black shadow-sm',
+        'bg-white border-2 border-[#C8A44D] text-[#C8A44D] hover:bg-[#C8A44D] hover:text-white shadow-sm font-semibold',
       ghost:
-        'bg-transparent text-slate-300 hover:text-gold-400 hover:bg-white/5',
+        'bg-transparent text-slate-700 hover:text-[#C8A44D] hover:bg-[#F4F1EA]',
     };
 
     const sizes = {

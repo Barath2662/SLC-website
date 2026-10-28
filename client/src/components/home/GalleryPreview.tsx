@@ -39,14 +39,14 @@ export const GalleryPreview: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 bg-dark-bg">
+    <section className="py-20 bg-[#FCFCFA]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
           <div>
-            <span className="text-xs font-semibold uppercase tracking-widest text-gold-400 px-3 py-1 rounded-full bg-gold-500/10 border border-gold-500/30 inline-block mb-3">
+            <span className="text-xs font-semibold uppercase tracking-widest text-[#C8A44D] px-3 py-1 rounded-full bg-[#C8A44D]/10 border border-[#C8A44D]/30 inline-block mb-3">
               Photo Showcase
             </span>
-            <h2 className="font-serif font-bold text-3xl sm:text-4xl text-white tracking-wide">
+            <h2 className="font-serif font-bold text-3xl sm:text-4xl text-[#111111] tracking-wide">
               Srii Lakshmi Cab Gallery
             </h2>
           </div>
@@ -64,7 +64,7 @@ export const GalleryPreview: React.FC = () => {
           {images.map((img, idx) => (
             <div
               key={idx}
-              className="group relative h-64 rounded-2xl overflow-hidden bg-dark-card border border-slate-800 hover:border-gold-500/40 shadow-xl cursor-pointer"
+              className="group relative h-64 rounded-2xl overflow-hidden bg-white border border-[#E7E5E4] hover:border-[#C8A44D]/40 shadow-md cursor-pointer"
             >
               <img
                 src={img.url}
@@ -75,15 +75,15 @@ export const GalleryPreview: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-80 group-hover:opacity-95 transition-opacity" />
 
               <div className="absolute inset-0 p-6 flex flex-col justify-between">
-                <span className="self-start text-[10px] font-bold uppercase tracking-wider text-gold-400 px-2.5 py-1 rounded-full bg-black/60 border border-gold-500/30">
+                <span className="self-start text-[10px] font-bold uppercase tracking-wider text-[#C8A44D] px-2.5 py-1 rounded-full bg-black/60 border border-[#C8A44D]/30">
                   {img.category}
                 </span>
 
                 <div className="flex items-center justify-between">
-                  <h3 className="font-serif font-bold text-lg text-white group-hover:text-gold-400 transition-colors">
+                  <h3 className="font-serif font-bold text-lg text-white group-hover:text-[#C8A44D] transition-colors">
                     {img.title}
                   </h3>
-                  <div className="w-8 h-8 rounded-full bg-gold-500 text-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div className="w-8 h-8 rounded-full bg-[#C8A44D] text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                     <Eye className="w-4 h-4" />
                   </div>
                 </div>

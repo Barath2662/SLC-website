@@ -23,16 +23,16 @@ export const Card = React.forwardRef<HTMLDivElement, CardProps>(
     const baseStyles = 'rounded-2xl transition-all duration-300 overflow-hidden';
 
     const variants = {
-      dark: 'bg-dark-card border border-slate-800 text-slate-100 shadow-xl',
-      glass: 'bg-dark-surface/80 backdrop-blur-md border border-gold-500/20 text-slate-100 shadow-2xl',
-      cream: 'bg-cream-card border border-amber-900/10 text-slate-900 shadow-md',
+      dark: 'bg-white border border-[#E7E5E4] text-[#111111] shadow-md',
+      glass: 'bg-white/90 backdrop-blur-md border border-[#E7E5E4] text-[#111111] shadow-lg',
+      cream: 'bg-[#F8F6F1] border border-[#E7E5E4] text-[#111111] shadow-sm',
     };
 
     const hoverStyles = hoverEffect
-      ? 'hover:-translate-y-1.5 hover:border-gold-500/40 hover:shadow-2xl hover:shadow-gold-500/10'
+      ? 'hover:-translate-y-1.5 hover:border-[#C8A44D]/50 hover:shadow-xl'
       : '';
 
-    const glowStyles = goldGlow ? 'gold-border-glow border-gold-500/40' : '';
+    const glowStyles = goldGlow ? 'gold-border-glow border-[#C8A44D]/40' : '';
 
     return (
       <div

@@ -59,7 +59,7 @@ export const CTABanner: React.FC = () => {
 
           <div className="flex items-center space-x-1.5">
             <Award className="w-4 h-4 text-gold-500" />
-            <span>20+ Years Trusted Heritage</span>
+            <span>18+ Years Trusted Heritage</span>
           </div>
         </div>
       </div>

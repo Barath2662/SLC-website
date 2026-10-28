@@ -2,8 +2,8 @@ import { SEOMetadata } from '@/types';
 
 export const PAGE_SEO_DATA: Record<string, SEOMetadata> = {
   home: {
-    title: 'Srii Lakshmi Cab | Premium Cab & Taxi Service in Coimbatore Since 2005',
-    description: 'Srii Lakshmi Cab offers premium cab services, airport transfers, outstation taxis, tempo travellers, Urbania, coaches, mini buses, and buses in Coimbatore. Trusted since 2005.',
+    title: 'Srii Lakshmi Cab | Premium Cab & Taxi Service in Coimbatore Since 2007',
+    description: 'Srii Lakshmi Cab offers premium cab services, airport transfers, outstation taxis, tempo travellers, Urbania, coaches, mini buses, and buses in Coimbatore. Trusted since 2007.',
     keywords: [
       'Cab Service in Coimbatore',
       'Taxi Service in Coimbatore',
@@ -18,8 +18,8 @@ export const PAGE_SEO_DATA: Record<string, SEOMetadata> = {
     ]
   },
   about: {
-    title: 'About Srii Lakshmi Cab | Trusted Travel Partner Since 2005',
-    description: 'Learn about Srii Lakshmi Cab, a trusted travel company in Coimbatore providing reliable taxi and travel services across South India since 2005.',
+    title: 'About Srii Lakshmi Cab | Trusted Travel Partner Since 2007',
+    description: 'Learn about Srii Lakshmi Cab, a trusted travel company in Coimbatore providing reliable taxi and travel services across South India since 2007.',
     keywords: [
       'About Srii Lakshmi Cab',
       'Coimbatore Travel Agency History',

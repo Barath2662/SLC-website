@@ -7,9 +7,9 @@ export const TrustBar: React.FC = () => {
     <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
         <StatisticCounter
-          value="20+"
+          value="18+"
           label="Years Experience"
-          description="Serving since 2005"
+          description="Serving since 2007"
           icon={<Award className="w-6 h-6" />}
         />
 
